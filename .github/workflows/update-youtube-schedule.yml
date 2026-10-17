@@ -1,0 +1,35 @@
+name: Update YouTube schedule
+
+on:
+  schedule:
+    - cron: '12 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: youtube-schedule-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch YouTube broadcasts
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/update_youtube_status.py
+      - name: Save schedule data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add youtube-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update YouTube stream schedule'
+            git push
+          fi
