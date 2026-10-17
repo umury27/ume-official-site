@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html lang="ja"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>憂井うめ ♡ Official Website</title><style>
+:root{--ink:#39216f;--violet:#8b45ed;--pink:#fa48b8;--lilac:#edd7ff;--size:150%;--px:50%;--py:44%}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:'Yu Gothic','Hiragino Kaku Gothic ProN',Meiryo,sans-serif;background:radial-gradient(#dfb8ff 1px,transparent 1px) 0 0/22px 22px,#fff8ff}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}.wrap{max-width:1450px;margin:auto;padding:0 24px}.top{position:sticky;top:0;z-index:20;background:#fffcffed;backdrop-filter:blur(15px);border-bottom:4px solid #bd85ff;box-shadow:0 5px 0 #ff91d46b}.nav{min-height:77px;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-size:clamp(21px,2.5vw,34px);font-weight:1000;white-space:nowrap;color:#7833ce;text-shadow:2px 3px #ffacd9}.navlinks{display:flex;gap:7px;flex-wrap:wrap;justify-content:flex-end}.navlinks a{border:2px solid #e4c4ff;border-radius:30px;padding:10px 13px;font-size:12px;font-weight:900;background:white;box-shadow:0 4px #f0c7f5;transition:.2s}.navlinks a:hover,.navlinks a:first-child{background:linear-gradient(110deg,#fc50ba,#8c44f1);color:white;transform:translateY(-3px)}.hero{position:relative;overflow:hidden;background:linear-gradient(125deg,#a46aff55,#fff9ff 46%,#ff9bd877),repeating-linear-gradient(130deg,#f1d8ff 0 16px,#f9ebff 16px 32px);border-bottom:8px solid #f6b1ef}.hero:before,.hero:after{content:'✦ ♡ ✧ ♡ ✦';position:absolute;z-index:0;font-size:33px;color:#b45cf3;opacity:.65;letter-spacing:30px}.hero:before{top:24px;right:0}.hero:after{bottom:7px;left:30px}.hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr 1fr .82fr;align-items:center;gap:22px;min-height:480px;padding-top:35px;padding-bottom:30px}.portrait-area{position:relative;min-height:415px;display:flex;align-items:center}.portrait-frame{position:relative;width:100%;height:400px;overflow:hidden;border:5px solid #b66df1;border-radius:48% 48% 13% 13%/43% 43% 13% 13%;background:radial-gradient(circle at 50% 25%,#fff4ff,#e4b9ff);box-shadow:10px 12px 0 #ff83cb,0 0 0 9px #ffffffa3}.portrait-frame img{position:absolute;width:var(--size);height:var(--size);max-width:none;object-fit:contain;object-position:var(--px) var(--py);left:50%;top:50%;transform:translate(-50%,-50%);display:none}.portrait-frame img.loaded{display:block}.placeholder{position:absolute;inset:0;display:grid;place-content:center;text-align:center;line-height:2.3;color:#9b68c8;font-weight:800}.portrait-frame:has(img.loaded) .placeholder{display:none}.label-sticker{position:absolute;bottom:12px;left:-10px;transform:rotate(-9deg);background:white;border:3px solid #bc78ff;padding:10px 23px;border-radius:40px;font-weight:900;color:#8b45ed;box-shadow:4px 5px #ffa3d8}.bow{position:absolute;top:-15px;right:-6px;font-size:74px;filter:drop-shadow(3px 4px 0 #fff);animation:bob 4s ease-in-out infinite}.hero-copy{text-align:center;position:relative}.eyebrow{display:inline-block;background:white;border:3px solid #c38aff;border-radius:50px;padding:10px 17px;font-size:13px;font-weight:900;box-shadow:5px 6px #ff9ddb;transform:rotate(-3deg)}h1{font-size:clamp(46px,5.5vw,91px);white-space:nowrap;line-height:1.2;margin:22px -12px 15px;color:#7430c5;letter-spacing:-.07em;text-shadow:3px 3px #fff,6px 7px #ff89cf,-2px -2px #fff}.catch{font-weight:1000;font-size:clamp(17px,1.5vw,23px);margin-bottom:15px}.description{font-size:13px;line-height:2.1;font-weight:700}.cta,.pillbtn{display:inline-block;color:white;background:linear-gradient(100deg,#ff4bb5,#813cf0);border:3px solid white;border-radius:50px;padding:14px 26px;font-weight:1000;box-shadow:0 5px 0 #9d61e4,0 0 0 2px #bd7eff;transition:.2s}.cta{margin-top:22px}.cta:hover,.pillbtn:hover{transform:translateY(-4px);filter:saturate(1.3)}.feature{background:#fffaff;border:4px solid #9148e9;border-radius:22px;box-shadow:8px 10px #ff8dcd;transform:rotate(1deg);padding:13px}.feature h2{background:linear-gradient(90deg,#7832dc,#f74ab3);color:white;border-radius:10px;font-size:16px;margin:0 0 12px;padding:12px}.feature-media{height:190px;border-radius:12px;background:linear-gradient(135deg,#d8adff,#f4b8eb);display:grid;place-items:center;overflow:hidden;position:relative}.feature-media img{width:100%;height:100%;object-fit:cover}.feature-media span{font-weight:900;text-align:center;line-height:1.8}.feature p{font-size:12px;line-height:1.7}.deco{position:absolute;pointer-events:none;font-size:35px;filter:drop-shadow(2px 3px #fff)}.d1{top:12%;left:2%}.d2{bottom:10%;left:40%}.d3{top:7%;right:5%}.main{padding-top:24px}.news{display:flex;align-items:center;gap:20px;border:3px solid #c78bff;background:#fff;border-radius:45px;padding:16px 23px;box-shadow:5px 6px #efb8fa;font-size:13px}.news strong{font-size:21px;color:#813bd5}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:24px 0}.card{min-height:310px;position:relative;overflow:hidden;background:#fff;border:3px solid #d7a5ff;border-radius:25px;padding:20px;box-shadow:5px 7px #eebdf5}.card:before{content:'✧ ♡ ✦';position:absolute;top:15px;right:12px;color:#e7a3e9;letter-spacing:7px}.card h2{font-size:22px;color:#7935c8;margin:0 0 3px}.card small{font-weight:800;color:#b874e8}.card p{font-size:13px;line-height:2}.card .pillbtn{font-size:12px;padding:9px 17px;margin-top:8px}.schedule-item{display:flex;gap:9px;align-items:center;border-bottom:1px solid #efddff;padding:12px 0;font-size:12px}.date{flex:none;background:#f0dfff;border-radius:30px;padding:5px 8px;font-weight:900}.tabs{display:flex;gap:5px;margin:18px 0 10px}.tabs button{border:0;background:#f1e5ff;color:#7334c6;border-radius:20px;padding:8px 11px;font-size:12px;font-weight:900}.tabs button.active{background:linear-gradient(90deg,#fc54b5,#8b44e9);color:white}.thumb{height:115px;border-radius:13px;background:linear-gradient(120deg,#a05cf4,#ff98cf);display:grid;place-items:center;color:white;font-weight:900;overflow:hidden}.thumb img{width:100%;height:100%;object-fit:cover}.socials{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:20px}.socials a{background:#f6edff;border:2px solid #e3c4ff;border-radius:12px;text-align:center;padding:11px 5px;font-weight:900;font-size:12px;transition:.2s}.socials a:hover{background:#f6a4dd;transform:translateY(-2px)}.section{background:white;border:3px solid #d5a5ff;border-radius:25px;padding:25px;margin:22px 0;box-shadow:5px 6px #efd0f9}.section h2{margin:0 0 12px;color:#7935c8}.section p{line-height:1.9}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.gallery>div{border:2px dashed #cf9ff9;background:#f9edff;border-radius:16px;padding:35px 10px;text-align:center}.editor{margin:15px 0;border:2px solid #d5adfa;background:white;border-radius:18px;padding:15px}.editor summary{font-weight:900;cursor:pointer}.controls{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:15px}.controls label{font-size:13px;font-weight:800}.controls input{width:100%;accent-color:#a14fe4}.hint{font-size:12px;color:#8564a2;line-height:1.7}.footer{text-align:center;padding:35px 10px;background:#e8c6ff;margin-top:35px;font-weight:900;color:#7835c8}.float{animation:bob 5s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-10px)}}@media(max-width:1050px){.hero-inner{grid-template-columns:1fr 1fr}.feature{grid-column:1/-1;max-width:520px;justify-self:center;width:100%}.cards{grid-template-columns:repeat(2,1fr)}.nav{flex-direction:column;padding:10px}.portrait-frame{height:380px}}@media(max-width:650px){.wrap{padding:0 15px}.navlinks{justify-content:center}.navlinks a{font-size:10px;padding:7px}.hero-inner{display:flex;flex-direction:column;gap:30px}.portrait-area{width:min(100%,420px);min-height:350px}.portrait-frame{height:340px}.hero-copy{order:-1}.feature{max-width:100%}.cards{grid-template-columns:1fr}.controls{grid-template-columns:1fr}.news{border-radius:22px;align-items:flex-start}.gallery{grid-template-columns:1fr}h1{font-size:58px}}
+
+/* Ver.9: frame-free integrated portrait */
+:root{--size:165%;--px:48%;--py:47%}
+.hero{isolation:isolate;background:radial-gradient(ellipse at 16% 55%,#a763ee88 0,transparent 44%),radial-gradient(ellipse at 88% 20%,#ff86d58a 0,transparent 45%),linear-gradient(115deg,#d6a7ff 0%,#f9efff 42%,#ffddf1 100%);border-bottom:8px solid #eab4ff}
+.hero::before{content:'✦ ♡ ✧';left:0;top:18px;right:auto;letter-spacing:18px;opacity:.5}
+.hero::after{content:'♡ ✦ ♡ ✧';right:0;left:auto;bottom:8px;opacity:.45}
+.hero-inner{grid-template-columns:1.16fr .94fr .82fr;gap:16px;min-height:540px;padding-top:25px;padding-bottom:25px}
+.portrait-area{height:520px;min-height:0;position:relative;align-self:end;overflow:visible;isolation:isolate}
+.portrait-glow{position:absolute;z-index:-1;inset:6% -7% 3% -11%;border-radius:49%;background:radial-gradient(ellipse,#fff9ff 0%,#e8b8ff 45%,#b877f533 68%,transparent 76%);filter:blur(5px)}
+.portrait-area::before{content:'';position:absolute;inset:6% -8% 7% -8%;border:3px dashed #ffffffa6;border-radius:50%;transform:rotate(-13deg);z-index:-1}
+.portrait-area::after{content:'';position:absolute;inset:15% -4% 15% -12%;background:repeating-conic-gradient(from 10deg,#ffffff5c 0 5deg,transparent 5deg 16deg);border-radius:50%;z-index:-2;opacity:.65}
+.portrait-area img{display:none;position:absolute;z-index:2;width:var(--size);height:var(--size);max-width:none;object-fit:contain;left:var(--px);top:var(--py);transform:translate(-50%,-50%);filter:drop-shadow(8px 12px 0 #9c54d333) drop-shadow(0 0 20px #fff8ff);pointer-events:none}
+.portrait-area img.loaded{display:block}
+.portrait-placeholder{position:absolute;inset:16% 8%;border:3px dashed #ba7bea;border-radius:42%;background:#fff9ff80;line-height:2.5}
+.portrait-area.has-image .portrait-placeholder{display:none}
+.portrait-ribbon{position:absolute;z-index:4;left:3%;bottom:11%;font-size:64px;filter:drop-shadow(2px 4px 0 #fff);animation:bob 4s ease-in-out infinite}
+.portrait-spark{position:absolute;z-index:4;right:3%;top:14%;font-size:64px;color:#fc52bd;text-shadow:3px 3px #fff}
+.portrait-decor{position:absolute;color:#a44fe6;font-size:30px;letter-spacing:15px;opacity:.7;z-index:3;pointer-events:none}
+.portrait-decor-a{top:5%;left:0;transform:rotate(-15deg)}.portrait-decor-b{bottom:6%;right:0;transform:rotate(10deg)}
+.hero-copy{z-index:5}.hero-copy h1{filter:drop-shadow(0 4px 0 #ffffffad)}
+.feature{z-index:6}.hero-copy .description{background:#fff9ff91;border-radius:18px;padding:9px 3px}
+@media(max-width:1050px){.hero-inner{grid-template-columns:1fr 1fr}.portrait-area{height:460px}.feature{grid-column:1/-1}}
+@media(max-width:650px){.hero-inner{display:flex;flex-direction:column}.hero-copy{order:-1}.portrait-area{width:min(100%,450px);height:420px;min-height:0;align-self:center}.portrait-area img{height:var(--size)}.portrait-ribbon{font-size:46px}}
+@media(prefers-reduced-motion:reduce){.portrait-ribbon{animation:none}}
+
+
+/* Ver.10 - layered kawaii pop makeover */
+:root{--violet:#7431d7;--pink:#ff45b5;--ink:#36205e}
+.hero{background:radial-gradient(circle at 11% 60%,#bd7aff88,transparent 37%),radial-gradient(circle at 85% 17%,#ff8cdbb0,transparent 43%),linear-gradient(115deg,#e0c0ff 0%,#fff6ff 50%,#ffd0ec 100%)}
+.hero::before{content:'♡  ✦  ♡  ✧';left:auto;right:0;top:28px;font-size:26px;color:#a44de9}
+.hero::after{content:'✦  ♡  ✧  ♡';left:6%;right:auto;bottom:16px;color:#a44de9}
+.hero-inner{min-height:570px}
+.hero-copy{padding:22px 0}
+.hero-copy:before{content:'';position:absolute;inset:4% -7%;z-index:-1;background:radial-gradient(ellipse,#fff9ffdb 0%,#fff9ff55 57%,transparent 74%);border-radius:45%}
+.hero-copy h1{font-size:clamp(54px,5.4vw,94px);color:#6920b8;text-shadow:3px 3px white,6px 7px #ff73c8,-2px -2px white}
+.eyebrow{border:3px solid #aa5ef0;box-shadow:4px 5px #ff7fcb}
+.cta,.pillbtn{background:linear-gradient(100deg,#ff4dbb,#9c39ed);box-shadow:0 6px 0 #a85bde,0 0 0 2px #b868ff}
+.top{border-bottom:4px solid #c379ff}.navlinks a{font-size:12px}
+.feature{border:4px solid #7f37d8;box-shadow:8px 10px #fa75c6;background:linear-gradient(145deg,#fff,#fff5ff)}
+.feature h2{background:linear-gradient(100deg,#7835d6,#fc45af);letter-spacing:.02em}
+.feature-media{height:195px;background:linear-gradient(145deg,#b17bed,#ff9fd7);border:3px solid #edc5ff}
+.feature:after{content:'✦ ♡ ✦';display:block;text-align:right;color:#cf7ce9;letter-spacing:7px}
+.news{border-color:#b772f2;box-shadow:5px 6px #f5b0df;background:#fff}
+.card{border-color:#c58bff;box-shadow:6px 8px #f3b7e6;padding-top:26px}
+.card:after{content:'🎀';position:absolute;right:13px;bottom:6px;font-size:27px;opacity:.55;pointer-events:none}
+.card:nth-child(2):after{content:'✦'}.card:nth-child(3):after{content:'♡'}.card:nth-child(4):after{content:'✧'}
+.card h2{display:inline-block;background:linear-gradient(90deg,#7733d3,#ed45af);background-clip:text;-webkit-background-clip:text;color:transparent}
+.card:nth-child(1){background:linear-gradient(155deg,#fff 68%,#fff0fc)}
+.card:nth-child(2){background:linear-gradient(155deg,#fff 68%,#f4e9ff)}
+.card:nth-child(3){background:linear-gradient(155deg,#fff 68%,#ffeafb)}
+.card:nth-child(4){background:linear-gradient(155deg,#fff 68%,#f1e8ff)}
+.socials a:nth-child(1){background:#fff0f6;border-color:#ffb3d4}.socials a:nth-child(2){background:#eee5ff;border-color:#bd9bff}.socials a:nth-child(3){background:#ece5ff}.socials a:nth-child(4){background:#e4f8ff;border-color:#a6d8ff}
+.editor{border-style:dashed}.editor summary{color:#7d3dc9}
+.section{border-color:#c48dff}
+.ribbon-lace{position:absolute;top:0;left:0;right:0;height:22px;z-index:3;pointer-events:none;background:radial-gradient(circle at 12px 0,#fff9ff 13px,transparent 14px) repeat-x;background-size:24px 22px;opacity:.9}
+.hero-sticker{position:absolute;z-index:8;pointer-events:none;filter:drop-shadow(3px 4px 0 #ffffffb8);font-size:clamp(30px,4vw,58px);animation:bob 5s ease-in-out infinite}
+.sticker-a{top:7%;left:36%;transform:rotate(-16deg)}.sticker-b{right:2%;bottom:5%}.sticker-c{right:27%;top:8%;font-size:32px}
+.hero-ink{position:absolute;inset:0;pointer-events:none;z-index:0;background-image:radial-gradient(#ffffffa6 1px,transparent 1px);background-size:24px 24px;mask-image:linear-gradient(90deg,#000,transparent 48%,#000)}
+.portrait-area{z-index:3}.portrait-area img{z-index:5}.portrait-ribbon{z-index:6}
+@media(max-width:650px){.hero-sticker{font-size:28px}.sticker-a{left:5%;top:34%}.sticker-b{right:3%;bottom:4%}.sticker-c{right:8%;top:12%}.hero-inner{padding-top:35px}.hero-copy h1{font-size:54px}}
+@media(prefers-reduced-motion:reduce){.hero-sticker{animation:none}}
+
+/* Ver.11: restrained sparkle, ribbons and polished cards */
+.hero{background:radial-gradient(ellipse at 13% 56%,#a765ed70,transparent 40%),radial-gradient(ellipse at 90% 25%,#ff8fd88a,transparent 42%),linear-gradient(112deg,#e2c5ff,#fff6ff 51%,#ffd5ed)}
+.hero .hero-inner:before{content:'✧  ♡  ✦';position:absolute;right:8%;top:9px;color:#a65ae4;font-size:23px;letter-spacing:18px;opacity:.65;pointer-events:none}
+.hero .hero-inner:after{content:'♡  ✧  ♡';position:absolute;right:5%;bottom:6px;color:#b363db;font-size:20px;letter-spacing:22px;opacity:.65;pointer-events:none}
+.ribbon-lace{height:17px;background:radial-gradient(circle at 10px -1px,#fff 11px,transparent 12px) repeat-x;background-size:20px 17px;opacity:1}
+.hero-copy .eyebrow{background:#fffefa;border-color:#c28af4;box-shadow:4px 5px #ff8bcf}
+.hero-copy h1{color:#7226c1;text-shadow:2px 2px #fff,5px 6px #f975c6,-1px -1px #fff}
+.hero-copy .description{border:1px solid #fff9ffb8;box-shadow:0 6px 24px #ae75cf12}
+.feature{background:#fffdfef7;box-shadow:7px 9px #f89ad4;border-color:#aa60e7;transform:rotate(.6deg)}
+.feature:before{content:'🎀';position:absolute;top:-28px;right:-12px;font-size:38px;filter:drop-shadow(2px 3px #fff);z-index:4}
+.feature h2{letter-spacing:.02em;background:linear-gradient(100deg,#8640e7,#f44eb5)}
+.feature-media{border:3px solid #f4c5ff;background:linear-gradient(135deg,#d5adf8,#f3b7e6)}
+.news{border-radius:24px;border-color:#c994f3;box-shadow:4px 5px #f5c8eb;position:relative}
+.news:before{content:'✦';position:absolute;right:18px;top:10px;color:#e997d7}
+.cards{gap:18px}.card{border-color:#d5a3f8;box-shadow:5px 7px #f1c5ee;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:6px 11px #eab4e8}
+.card h2{border-bottom:2px solid #f2e0fc;padding-bottom:10px;margin-bottom:9px}
+.card:nth-child(2) h2{color:#8844cf}.card:nth-child(3) h2{color:#d744a9}
+.card:nth-child(4) h2{color:#7541bc}
+.card:after{content:'♡';position:absolute;bottom:-23px;right:10px;font-size:78px;color:#f6e6fd;pointer-events:none;z-index:0}
+.card>*{position:relative;z-index:1}
+.navlinks a:hover{box-shadow:0 5px #eeb6f2}
+.editor{margin:16px 0 22px;background:#fffafd;border:2px dashed #e1b9f9}
+@media(max-width:650px){.hero .hero-inner:before,.hero .hero-inner:after{display:none}.feature:before{right:4px}.cards{gap:14px}}
+
+/* PICK UP: video thumbnail and play affordance */
+.pickup-link{display:block;position:relative;cursor:pointer;aspect-ratio:16/9;height:auto;min-height:170px;background:linear-gradient(120deg,#e5c4ff,#f5b8e9)}
+.pickup-link img{display:block;width:100%;height:100%;object-fit:cover}
+.pickup-link .pickup-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:58px;height:58px;border-radius:50%;background:#a143e8e8;color:white;font-size:24px;box-shadow:0 3px 18px #4d197c80;border:2px solid #fff;transition:transform .2s}
+.pickup-link:hover .pickup-play{transform:translate(-50%,-50%) scale(1.12);background:#ed49b2}
+.feature p a{color:#7935c8;font-weight:900;text-decoration:underline;text-underline-offset:3px}
+
+/* PICK UPを立ち絵より少し小さい存在感に拡大 */
+@media(min-width:1051px){
+.hero-inner{grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr) minmax(0,1.04fr);gap:20px}
+.feature{width:100%;max-width:none;padding:15px}
+.feature-media.pickup-link{min-height:0;aspect-ratio:16/9}
+.feature h2{font-size:17px}
+.hero-copy h1{font-size:clamp(48px,4.7vw,78px)}
+}
+@media(min-width:651px) and (max-width:1050px){.feature{max-width:650px}}
+/* PICK UPを少し右に移動。画面が狭い場合は元の位置に戻す */
+@media(min-width:1051px){.hero-inner>.feature{position:relative;left:38px}}
+@media(max-width:1050px){.hero-inner>.feature{left:auto}}
+.feature-media.pickup-link img{object-position:var(--pickup-x,50%) var(--pickup-y,50%);transform:scale(var(--pickup-scale,1));transform-origin:var(--pickup-x,50%) var(--pickup-y,50%)}.image-extra{border:2px dashed #d6a6ff;background:#fffaff;border-radius:18px;padding:15px;margin:14px 0}.image-extra summary{cursor:pointer;font-weight:900;color:#7935c8}.image-extra .controls{margin:12px 0}.image-extra button{background:white;border:1px solid #c18cf5;border-radius:8px;padding:7px 12px;cursor:pointer}
+/* HOME schedule — thumbnail cards */
+.home-schedule{margin-top:26px}.home-schedule-heading{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}.home-schedule-heading h2{margin:5px 0 3px;font-size:clamp(22px,2.7vw,34px)}.home-schedule-heading p{margin:0;font-size:13px}.schedule-kicker{color:#ed4cae;font-size:12px;font-weight:900;letter-spacing:.12em}.schedule-channel{padding:10px 18px;background:#f7eaff;border:2px solid #d9a9ff;border-radius:30px;font-weight:900;font-size:12px}.home-schedule-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px;margin:21px 0}.home-event{min-width:0;border:3px solid #e2b5ff;border-radius:20px;overflow:hidden;background:#fff9ff;box-shadow:5px 6px #f3c9ed;transition:transform .2s}.home-event:hover{transform:translateY(-4px)}.home-event-media{display:block;aspect-ratio:16/9;background:linear-gradient(135deg,#b976f5,#ffa3d4);overflow:hidden;position:relative}.home-event-media img{width:100%;height:100%;object-fit:cover;display:block}.home-event-media .home-event-fallback{display:grid;place-items:center;height:100%;color:#fff;font-weight:900}.home-event-info{padding:13px 15px 17px}.home-event-info h3{font-size:15px;line-height:1.6;margin:8px 0;color:#7534c3;overflow-wrap:anywhere}.home-event-date{display:inline-block;border-radius:20px;padding:6px 11px;background:#f0ddff;color:#7736b9;font-size:12px;font-weight:900}.home-event-open{font-size:12px;font-weight:900;color:#ec4ba9}.home-schedule-empty{grid-column:1/-1;text-align:center;border:2px dashed #d8a5fa;border-radius:18px;background:#fdf5ff;padding:30px 16px;font-size:14px;color:#8756a7}.schedule-manage{margin:18px 0 0}.schedule-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0}.schedule-fields label{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:900}.schedule-fields input{width:100%;min-width:0;padding:10px;border:2px solid #e2c5fa;border-radius:10px;background:#fff;font:inherit;color:#4b2878}.schedule-actions{display:flex;gap:9px;flex-wrap:wrap}.schedule-actions button,.schedule-manage-list button{padding:9px 13px;border:0;border-radius:20px;background:#9148df;color:white;font-weight:900}.schedule-manage-list{margin-top:15px}.schedule-manage-row{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 0;border-top:1px solid #ead8fa;font-size:12px}.schedule-manage-row span{overflow-wrap:anywhere}.schedule-manage-row button{margin-left:5px;font-size:11px}.schedule-manage-row button.delete{background:#d94b91}@media(max-width:850px){.home-schedule-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.home-schedule-cards{grid-template-columns:1fr}.schedule-fields{grid-template-columns:1fr}}
+
+/* One illustration for the entire activity timeline */
+.timeline-content-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(160px,36%);align-items:center;gap:14px;min-width:0}
+.timeline-content-layout .timeline-list{min-width:0}
+.timeline-single-art{min-width:0;display:flex;align-items:center;justify-content:center;overflow:visible}
+.timeline-single-art.photo-missing{display:none}
+.timeline-single-art img{display:block;width:var(--tl-one-pc-size,300px);max-width:none;height:auto;transform:translate(var(--tl-one-pc-x,0px),var(--tl-one-pc-y,0px)) rotate(var(--tl-one-pc-rotate,0deg));object-fit:contain}
+@media(max-width:700px){.timeline-content-layout{display:flex;flex-direction:column;align-items:stretch}.timeline-single-art{justify-content:center}.timeline-single-art img{width:var(--tl-one-mobile-size,220px);transform:translate(var(--tl-one-mobile-x,0px),var(--tl-one-mobile-y,0px)) rotate(var(--tl-one-mobile-rotate,0deg))}}
+</style><style id="compact-layout">/* Desktop display scale: keep existing image editor controls */
+@media (min-width: 701px) { body { zoom: 0.90; } }
+.stream-badge{display:inline-block;margin:0 8px 8px 0;padding:5px 10px;border-radius:999px;font-size:12px;font-weight:900}.stream-badge.live{background:#e52c58;color:#fff;animation:livePulse 1.7s infinite}.stream-badge.planned{background:#f0d7ff;color:#7631b7}.stream-badge.ended{background:#eeeaf2;color:#666}.stream-badge.unknown{background:#fff4e6;color:#96663a}@keyframes livePulse{50%{box-shadow:0 0 0 5px #ff4e6b38}}
+
+/* Layout correction: three equally sized cards, aligned with full-width sections. */
+.cards{grid-template-columns:repeat(3,minmax(0,1fr));width:100%;gap:16px}
+.cards>.card{min-width:0;width:100%;height:100%}
+.card h2,.card small,.card p,.card a{overflow-wrap:anywhere}
+/* Responsive layout and overflow protection */
+html,body{max-width:100%;overflow-x:clip}
+.wrap{width:100%;min-width:0}
+img,video,iframe{max-width:100%}
+@media(max-width:900px){
+ .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .cards>.card:last-child{grid-column:1/-1}
+ .hero-inner{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+ .hero-inner>.feature{left:auto;transform:none}
+}
+@media(max-width:650px){
+ .cards{grid-template-columns:minmax(0,1fr);gap:16px}
+ .cards>.card:last-child{grid-column:auto}
+ .card{min-height:0;padding:18px}
+ .wrap{padding-left:16px;padding-right:16px}
+ .hero-inner{display:flex;flex-direction:column;gap:22px}
+ .hero-inner>*{min-width:0;max-width:100%}
+ .hero-copy{width:100%}
+ .hero-copy h1{font-size:clamp(34px,10vw,54px);white-space:normal;overflow-wrap:anywhere;margin-left:0;margin-right:0}
+ .feature{width:100%;max-width:100%;left:auto!important;transform:none}
+ .navlinks{gap:5px;justify-content:center}
+ .navlinks a{font-size:10px;padding:7px 8px}
+ .news{flex-wrap:wrap;gap:8px}
+ .section{padding:17px}
+ .home-schedule-cards{grid-template-columns:minmax(0,1fr)}
+ .home-schedule-heading{min-width:0}
+ .home-schedule-heading h2{overflow-wrap:anywhere}
+ .socials{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:360px){.socials{grid-template-columns:1fr}.navlinks a{font-size:9px;padding:6px}}
+
+/* Smartphone: character and introduction sit side-by-side, without clipping. */
+@media(max-width:650px){
+ .hero-inner{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:8px;row-gap:20px;align-items:center;padding-top:18px}
+ .hero-inner>.hero-copy{grid-column:1;grid-row:1;order:initial;width:100%;padding:8px 0;min-width:0}
+ .hero-inner>.portrait-area{grid-column:2;grid-row:1;order:initial;width:100%;max-width:100%;height:clamp(240px,78vw,390px);min-height:0;align-self:center;overflow:visible}
+ .hero-inner>.feature{grid-column:1/-1;grid-row:2;max-width:100%;width:100%}
+ .hero-copy h1{font-size:clamp(24px,6vw,37px)!important;letter-spacing:-.08em;line-height:1.2;white-space:normal;margin:10px 0}
+ .hero-copy .catch{font-size:clamp(11px,3.2vw,15px);line-height:1.5}
+ .hero-copy .description{font-size:clamp(10px,2.65vw,13px);line-height:1.7;padding:7px 4px}
+ .hero-copy .eyebrow{font-size:10px;padding:6px 8px;max-width:100%}
+ .hero-copy .cta{font-size:clamp(10px,2.7vw,13px);padding:10px 8px;max-width:100%;white-space:normal;margin-top:12px}
+ .portrait-area img{width:100%!important;height:100%!important;max-width:100%!important;max-height:100%!important;left:50%!important;top:50%!important;object-fit:contain!important;object-position:center center!important;transform:translate(-50%,-50%)!important}
+ .portrait-area::before,.portrait-area::after{inset:12% 0}
+ .portrait-ribbon,.portrait-spark{font-size:30px}
+ .hero-sticker{pointer-events:none}
+}
+@media(max-width:360px){.hero-inner{column-gap:4px}.hero-copy .description{font-size:10px}.hero-copy .cta{padding:8px 5px}}
+</style><style id="typography-navigation-fix">
+/* Typography: playful headings, readable body. Logo image is intentionally NOT included. */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800;900&family=Noto+Sans+JP:wght@400;500;600;700&display=swap');
+body{font-family:'Noto Sans JP','Yu Gothic',Meiryo,sans-serif}
+h1,h2,h3,.brand,.name,.catch,.eyebrow,.navlinks a,.pillbtn,.cta,.tag,.back{font-family:'M PLUS Rounded 1c','Yu Gothic',Meiryo,sans-serif}
+.brand{ text-shadow:1px 1px 0 #ffe7f6 }
+.navlinks{justify-content:center;align-items:center;gap:8px}
+.navlinks a{display:inline-flex;align-items:center;justify-content:center;min-height:36px;white-space:nowrap;line-height:1.2;transform:none}
+@media(max-width:700px){
+ .nav{align-items:center;justify-content:center;gap:10px}
+ .navlinks{width:100%;justify-content:center;align-content:center;gap:8px 6px}
+ .navlinks a{padding:8px 9px;font-size:10px;min-height:34px;box-shadow:0 3px #f0c7f5}
+}
+
+/* Soften name shadow and keep headline legible. */
+.hero-copy h1{ text-shadow:1px 2px 0 #fff,2px 3px 0 #ffd3ec!important;letter-spacing:-.045em }
+@media(max-width:650px){
+ .hero-copy h1{font-size:clamp(23px,5.8vw,36px)!important;letter-spacing:-.06em}
+ .navlinks a:hover{transform:none}
+}
+</style><style id="header-and-mobile-final">
+/* The logo is referenced locally; no user artwork is embedded in this package. */
+.top .nav{min-height:0;display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:10px;padding-bottom:10px}
+.top .brand{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;min-width:0;line-height:1;text-shadow:none}
+.top .site-logo{display:block;width:clamp(120px,14vw,205px);height:auto;max-height:76px;object-fit:contain}
+.top .site-logo[hidden],.top .site-logo-fallback[hidden]{display:none!important}
+.top .navlinks{display:flex;align-items:center;justify-content:center;align-content:center;gap:8px;min-width:0}
+.top .navlinks a{display:inline-flex;align-items:center;justify-content:center;line-height:1.2;white-space:nowrap;transform:none;min-height:34px}
+@media(max-width:1050px){.top .nav{flex-direction:column;gap:10px}}
+@media(max-width:700px){
+ .top .nav{padding-top:8px;padding-bottom:10px;gap:9px}
+ .top .site-logo{width:clamp(135px,43vw,185px);max-height:66px}
+ .top .navlinks{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 6px;justify-items:stretch}
+ .top .navlinks a{width:100%;padding:8px 3px;min-width:0;font-size:clamp(9px,2.4vw,11px);box-shadow:0 3px #f0c7f5;text-align:center}
+ .top .navlinks a:hover{transform:none}
+}
+
+/* Unified header across HOME / ABOUT (desktop and mobile) */
+.top{height:auto!important;min-height:0!important;padding:0!important}
+.top .wrap.nav{width:min(100%,1380px)!important;max-width:1380px!important;margin:0 auto!important;display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:space-between!important;gap:18px!important;padding:10px 22px!important;min-height:74px!important;height:auto!important}
+.top .brand{display:flex!important;align-items:center!important;justify-content:center!important;flex:0 0 auto!important;min-width:0!important;height:auto!important;line-height:1.1!important;margin:0!important;padding:0!important;text-decoration:none!important}
+.top .brand .site-logo{display:block;object-fit:contain;width:auto;max-width:220px;max-height:55px;height:auto}
+.top .brand .site-logo[hidden],.top .brand .site-logo-fallback[hidden]{display:none!important}
+.top .brand .site-logo-fallback:not([hidden]){display:inline-block!important;font-size:clamp(18px,2.2vw,27px)!important;white-space:nowrap}
+.top .navlinks{display:flex!important;flex-wrap:wrap!important;align-items:center!important;justify-content:center!important;align-content:center!important;gap:8px!important;width:auto!important;margin:0!important;padding:0!important;min-width:0!important}
+.top .navlinks a{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-height:33px!important;line-height:1.2!important;white-space:nowrap!important;margin:0!important;transform:none!important}
+@media(max-width:850px){
+ .top .wrap.nav{flex-direction:column!important;justify-content:center!important;gap:8px!important;padding:9px 12px 12px!important;min-height:0!important}
+ .top .brand{width:100%!important;min-height:32px!important}
+ .top .brand .site-logo{max-width:min(210px,65vw)!important;max-height:58px!important}
+ .top .navlinks{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:7px 6px!important;width:min(100%,430px)!important;justify-items:stretch!important}
+ .top .navlinks a{width:100%!important;min-width:0!important;max-width:none!important;padding:8px 2px!important;font-size:clamp(9px,2.45vw,11px)!important;min-height:33px!important;text-align:center!important}
+}
+
+/* ABOUT card illustration, contained within ABOUT (not CONTENTS). */
+.home-about-card{isolation:isolate;min-width:0;--ha-size:160px;--ha-x:0px;--ha-y:0px}
+.home-about-card .home-about-copy{position:relative;z-index:2;max-width:calc(100% - min(var(--ha-size), 46%));min-width:0}
+.home-about-card .home-about-art{position:absolute;z-index:1;right:8px;bottom:0;width:var(--ha-size);height:auto;max-width:none;max-height:none;object-fit:contain;transform:translate(var(--ha-x),var(--ha-y));pointer-events:none;filter:drop-shadow(2px 5px 5px #7b408b30)}
+.home-about-art-editor{margin:22px 0 12px}
+.home-about-art-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:12px 0}
+.home-about-art-controls fieldset{border:2px solid #ead2ff;border-radius:12px;min-width:0;padding:12px}
+.home-about-art-controls legend{font-weight:900;color:#7835c8}
+.home-about-art-controls label{display:block;font-size:12px;font-weight:800;margin:10px 0}
+.home-about-art-controls input{display:block;width:100%;accent-color:#a14fe4}
+.home-about-art-editor button{border:0;border-radius:22px;background:#8e45dc;color:white;font-weight:900;padding:9px 15px;cursor:pointer}
+@media(max-width:1100px){.home-about-card .home-about-copy{max-width:60%}}
+@media(max-width:650px){.home-about-art-controls{grid-template-columns:1fr}.home-about-card{--ha-size:115px;--ha-x:0px;--ha-y:0px;min-height:275px}.home-about-card .home-about-copy{max-width:calc(100% - min(var(--ha-size), 36%))}.home-about-card .home-about-copy p{font-size:11px}.home-about-card .home-about-art{right:2px}}
+@media(max-width:380px){.home-about-card .home-about-copy{max-width:64%}.home-about-card .home-about-art{opacity:.95}}
+</style><style id="logo-size-controls-style">
+/* Independent desktop/mobile logo widths, shared between pages. */
+.top .brand .site-logo{width:min(var(--ume-logo-pc,220px),100%)!important;max-width:none!important;max-height:none!important;height:auto!important;object-fit:contain!important}
+.top .brand{max-width:min(48vw,520px)!important}
+@media(max-width:850px){.top .brand{max-width:100%!important}.top .brand .site-logo{width:min(var(--ume-logo-mobile,190px),92vw)!important;max-width:none!important;max-height:none!important}}
+.logo-size-editor{box-sizing:border-box;width:min(100% - 24px,850px);margin:14px auto;padding:14px 18px;border:2px dashed #d5a0ff;border-radius:18px;background:#fff9ff;color:#7632b2;font-family:'Noto Sans JP',sans-serif}
+.logo-size-editor summary{cursor:pointer;font-weight:800}.logo-size-editor p{font-size:12px;line-height:1.7}
+.logo-size-editor .logo-size-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:12px 0}
+.logo-size-editor label{display:grid;gap:7px;font-weight:700;font-size:13px}.logo-size-editor input{width:100%;accent-color:#ba43df}
+.logo-size-editor button{border:0;border-radius:20px;padding:8px 16px;background:#a63be0;color:white;font-weight:bold;cursor:pointer}
+@media(max-width:520px){.logo-size-editor .logo-size-fields{grid-template-columns:1fr}}
+</style><style>
+/* New timeline and contact sections */
+.activity-timeline,.inquiry-section{scroll-margin-top:125px}
+.timeline-list{position:relative;margin:24px 0 6px;padding-left:18px;border-left:3px solid #d7a5ff}
+.timeline-event{display:grid;grid-template-columns:minmax(120px,195px) minmax(0,1fr);gap:15px;position:relative;padding:0 0 23px 20px}
+.timeline-event:before{content:"♡";position:absolute;left:-29px;top:0;color:#ae5aea;background:#fff;font-size:21px}
+.timeline-event time{font-weight:900;color:#8d43d5;font-size:13px}
+.timeline-event strong{color:#7133ae}.timeline-event p{margin:5px 0 0;font-size:13px}
+.inquiry-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;max-width:900px;margin:22px auto 0}
+.inquiry-form label{font-weight:900;font-size:13px;min-width:0}.inquiry-form label:nth-child(4),.inquiry-form .inquiry-submit,.inquiry-form .hint{grid-column:1/-1}
+.inquiry-form input,.inquiry-form textarea{display:block;width:100%;max-width:100%;margin-top:8px;border:2px solid #d9b3f5;border-radius:13px;background:#fffaff;color:#39216f;font:inherit;font-weight:500;padding:13px;outline-offset:2px}
+.inquiry-form input:focus,.inquiry-form textarea:focus{border-color:#a050e4;outline:2px solid #f3c5eb}
+.inquiry-form .required,.inquiry-form .optional{font-size:10px;margin-left:6px;padding:3px 6px;border-radius:9px;background:#f6e7ff;color:#813bd5}
+.inquiry-form .optional{background:#f1f1f1;color:#666}
+.inquiry-submit{justify-self:start;border:0;border-radius:40px;padding:14px 23px;background:linear-gradient(90deg,#f750b5,#8b44e9);color:white;font-weight:900;cursor:pointer}
+@media(max-width:650px){.timeline-event{grid-template-columns:1fr;gap:4px}.inquiry-form{grid-template-columns:1fr}.inquiry-form label,.inquiry-form .inquiry-submit,.inquiry-form .hint{grid-column:1/-1}.top .navlinks{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+
+/* ACTIVITY TIMELINE optional images */
+.timeline-photo-frame{position:relative;width:100%;max-width:560px;height:var(--tl-pc-height,180px);margin-top:12px;border-radius:16px;overflow:hidden;background:#f8f1ff;border:1px solid #ead9f7}
+.timeline-photo-frame.photo-missing{display:none}
+.timeline-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:var(--tl-pc-x,50%) var(--tl-pc-y,50%);transform:scale(var(--tl-pc-scale,1));transform-origin:var(--tl-pc-x,50%) var(--tl-pc-y,50%)}
+.timeline-image-editor{margin:24px 0;padding:18px;border:1px solid #e4c8fa;border-radius:18px;background:#fff9ff}
+.timeline-image-editor summary{font-weight:800;color:#8042b2;cursor:pointer}
+.timeline-image-editor .tl-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:15px 0}
+.timeline-image-editor fieldset{border:1px solid #eddcf9;border-radius:14px;padding:12px;min-width:0}
+.timeline-image-editor legend{font-weight:700;color:#8c4cbe}
+.timeline-image-editor label{display:block;margin:10px 0;font-size:13px}
+.timeline-image-editor input[type=range]{display:block;width:100%;accent-color:#b576e4}
+.timeline-image-editor select{max-width:100%;padding:8px;border-radius:9px;border:1px solid #dbbff1}
+.timeline-image-editor button{cursor:pointer;border:0;border-radius:10px;padding:10px 15px;margin:4px;background:#a66bd7;color:#fff;font-weight:700}
+@media(max-width:650px){.timeline-photo-frame{height:var(--tl-mobile-height,160px)}.timeline-photo{object-position:var(--tl-mobile-x,50%) var(--tl-mobile-y,50%);transform:scale(var(--tl-mobile-scale,1));transform-origin:var(--tl-mobile-x,50%) var(--tl-mobile-y,50%)}.timeline-image-editor .tl-controls{grid-template-columns:1fr}}
+</style><style id="ume-responsive-compact-20261018">
+/* 2026-10-18: overall comfortable compact sizing, without changing content or editor values */
+@media (min-width: 851px) {
+  body { zoom: .84 !important; }
+}
+@media (min-width: 701px) and (max-width: 850px) {
+  body { zoom: .91 !important; }
+}
+@media (max-width: 700px) {
+  body { zoom: 1 !important; }
+  .wrap { padding-left: 14px !important; padding-right: 14px !important; }
+  .section { padding: 15px !important; }
+  .title h1 { font-size: clamp(30px, 8vw, 43px) !important; }
+  .guide-hero { padding: 30px 16px 26px !important; margin-bottom: 32px !important; }
+  .guide-hero h1 { font-size: clamp(30px, 8vw, 43px) !important; }
+  .guide-section { margin-bottom: 32px !important; }
+  .guide-card, .guide-item { padding: 15px !important; }
+  .guide-heading { gap: 11px !important; }
+  .guide-number { width: 50px !important; height: 50px !important; flex-basis: 50px !important; font-size: 23px !important; }
+}
+
+/* Timeline illustration is desktop-only; text remains visible on mobile. */
+@media (max-width: 700px) {
+  .timeline-single-art { display: none !important; }
+  .timeline-content-layout { display: block !important; }
+  .timeline-content-layout .timeline-list { width: 100% !important; }
+  .timeline-image-editor { display: none !important; }
+}
+</style><style id="ume-contents-new-style">.ume-contents-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}.ume-content-tile{display:flex;flex-direction:column;gap:8px;min-width:0;text-decoration:none!important;color:#713c89!important;border:2px solid #efd9f6;border-radius:18px;background:linear-gradient(155deg,#fff8fd,#f6f0ff);padding:10px;transition:transform .2s,box-shadow .2s}.ume-content-tile:hover{transform:translateY(-4px);box-shadow:0 8px 20px #b97fc23d}.ume-content-media{aspect-ratio:16/9;border-radius:11px;overflow:hidden;background:#f1e5fb}.ume-content-media img{display:block;width:100%;height:100%;object-fit:cover}.ume-content-tile b{font-size:15px}.ume-content-tile span{font-size:12px;line-height:1.6}.ume-contents-note{font-size:11px;opacity:.75;margin:14px 0 0}@media(max-width:700px){.ume-contents-grid{grid-template-columns:1fr}.ume-content-tile{display:grid;grid-template-columns:38% 1fr;grid-template-rows:auto auto;column-gap:12px;align-items:center}.ume-content-media{grid-row:1/3}.ume-content-tile b{align-self:end}.ume-content-tile span{align-self:start}}</style><style id="ume-contents-larger-20261018">
+/* CONTENTSをHOMEの横幅いっぱいに広げ、サムネイルと文字を大きく */
+#contents { grid-column: 1 / -1; padding: 25px 28px !important; }
+#contents .ume-contents-grid { gap: 22px; margin-top: 23px; }
+#contents .ume-content-tile { padding: 17px; gap: 13px; border-radius: 22px; }
+#contents .ume-content-media { border-radius: 15px; }
+#contents .ume-content-tile b { font-size: 21px; }
+#contents .ume-content-tile span { font-size: 15px; line-height: 1.65; }
+#contents .ume-contents-note { font-size: 12px; }
+@media (max-width:700px) {
+ #contents { padding: 19px 16px !important; }
+ #contents .ume-contents-grid { gap: 15px; margin-top: 18px; }
+ #contents .ume-content-tile { display:flex; flex-direction:column; align-items:stretch; padding:14px; gap:9px; }
+ #contents .ume-content-media { width:100%; aspect-ratio:16/9; }
+ #contents .ume-content-tile b { font-size:19px; }
+ #contents .ume-content-tile span { font-size:14px; }
+}
+</style><style id="ume-contents-about-links-layout">
+/* CONTENTS first, ABOUT and LINKS in a balanced two-column row beneath */
+.cards:has(> #contents) { display:block; margin:24px 0; }
+.cards > #contents { width:100%; margin-bottom:22px; }
+.ume-about-links-row { display:grid; grid-template-columns:minmax(0,0.82fr) minmax(0,1fr); align-items:stretch; gap:clamp(30px,6vw,88px); }
+.ume-about-links-row > .card { width:100%; min-width:0; min-height:300px; margin:0; }
+.ume-about-links-row #about { grid-column:auto; }
+.ume-about-links-row #links { display:flex; flex-direction:column; }
+.ume-about-links-row #links .socials { margin-top:22px; align-content:start; }
+@media(max-width:700px) {
+ .cards > #contents { margin-bottom:16px; }
+ .ume-about-links-row { grid-template-columns:minmax(0,1fr); gap:16px; }
+ .ume-about-links-row > .card { min-height:0; }
+}
+</style></head><body><header class="top"><div class="wrap nav"><a class="brand" href="#home"><img alt="憂井うめ" class="site-logo" onerror="this.hidden=true;this.nextElementSibling.hidden=false" src="images/main_logo.png"/><span class="site-logo-fallback" hidden="">♡ 憂井うめ ♡</span></a><nav class="navlinks"><a href="index.html#home">⌂ HOME</a><a href="about.html">♡ ABOUT</a><a href="guidelines.html">📖 GUIDELINES</a></nav></div></header><details class="logo-size-editor" id="logoSizeEditor"><summary>🎀 ヘッダーロゴの大きさを調整する（自分用）</summary><p>PC版とスマホ版を別々に調整できるよ。変更はHOME・ABOUT両方に反映され、このブラウザに保存されます。公開用にする場合は、決めた数値をHTMLに反映してから編集欄を非表示にしてね。</p><div class="logo-size-fields"><label>🖥️ PC版 <output id="logoPcOut">220px</output><input id="logoPcSize" max="480" min="100" step="5" type="range" value="220"/></label><label>📱 スマホ版 <output id="logoMobileOut">190px</output><input id="logoMobileSize" max="360" min="90" step="5" type="range" value="190"/></label></div><button id="logoSizeReset" type="button">初期サイズに戻す</button></details><section class="hero" id="home"><div aria-hidden="true" class="ribbon-lace"></div><div aria-hidden="true" class="hero-ink"></div><span aria-hidden="true" class="hero-sticker sticker-a">🎀</span><span aria-hidden="true" class="hero-sticker sticker-b">💜</span><span aria-hidden="true" class="hero-sticker sticker-c">✧</span><span class="deco d1 float">💜</span><span class="deco d2">🎀</span><span class="deco d3">✦</span><div class="wrap hero-inner"><div class="portrait-area"><div aria-hidden="true" class="portrait-glow"></div><div aria-hidden="true" class="portrait-decor portrait-decor-a">✧ ♡ ✦</div><div aria-hidden="true" class="portrait-decor portrait-decor-b">✦ ♡ ✧</div><div class="portrait-placeholder placeholder">♡ ここに立ち絵が入るよ ♡<br/>images/ume.png</div><img alt="憂井うめの立ち絵" id="ume" src="images/ume.png"/><span aria-hidden="true" class="portrait-ribbon">🎀</span><span aria-hidden="true" class="portrait-spark">✦</span></div><div class="hero-copy"><span class="eyebrow">✦ WELCOME TO MY WORLD ✦</span><h1>憂井うめ♡</h1><div class="catch">平和を愛する戦闘狂！ 🎮</div><div class="description">癒し声 × 感情フルスイング<br/>ゲームに本気で泣いて、笑って、叫ぶ！<br/>一緒にたくさん遊ぼう ♡</div><a class="cta" href="https://www.youtube.com/@u0_um" rel="noopener" target="_blank">▶ 配信を見に行く →</a></div><aside class="feature"><h2>💗 PICK UP CONTENTS</h2><a aria-label="PICK UP配信をYouTubeで見る" class="feature-media pickup-link" href="https://www.youtube.com/watch?v=GVWL3IUk0Ys" rel="noopener noreferrer" target="_blank"><img alt="PICK UP配信のYouTubeサムネイル" id="pickup" referrerpolicy="no-referrer" src="https://i.ytimg.com/vi/GVWL3IUk0Ys/hqdefault.jpg"/><span id="pickupFallback" style="display:none">▶ YouTubeで配信を見る ♡</span><span aria-hidden="true" class="pickup-play">▶</span></a><p><a href="https://www.youtube.com/watch?v=GVWL3IUk0Ys" rel="noopener noreferrer" target="_blank">▶ ピックアップ配信を見る ↗</a></p><div style="text-align:center;color:#a05ce7">● ○ ○</div></aside></div></section><main class="wrap main"><details class="editor"><summary>🎀 立ち絵の位置を調整する（自分用・クリックで開く）</summary><p class="hint">顔が切れないよう、大きさと左右・上下の位置を調整してね。設定はこのブラウザに保存されます。公開前はこの編集欄を非表示にしてね。</p><div class="controls"><label>大きさ <output id="sizeOut"></output><input id="size" max="380" min="70" type="range" value="165"/></label><label>左右 <output id="xOut"></output><input id="x" max="100" min="0" type="range" value="48"/></label><label>上下 <output id="yOut"></output><input id="y" max="100" min="0" type="range" value="47"/></label></div><button id="reset" type="button">初期値に戻す</button></details><details class="image-extra"><summary>🎬 動画サムネイルの位置を調整する（自分用）</summary><div class="controls"><label>大きさ <output id="pickupScaleOut"></output><input id="pickupScale" max="200" min="100" type="range" value="100"/></label><label>左右 <output id="pickupXOut"></output><input id="pickupX" max="100" min="0" type="range" value="50"/></label><label>上下 <output id="pickupYOut"></output><input id="pickupY" max="100" min="0" type="range" value="50"/></label></div><button id="pickupReset" type="button">初期位置に戻す</button></details><div class="news"><strong>📣 NEWS</strong><span>♡ 憂井うめの公式サイトへようこそ！ ここに最新のお知らせを掲載できます。</span></div><section class="section home-schedule" id="schedule"><div class="home-schedule-heading"><div><span class="schedule-kicker">♡ STREAMING PLAN ♡</span><h2>🎀 STREAM SCHEDULE</h2><p>配信予定・LIVE・アーカイブをサムネイル付きでチェック ♡</p></div><a class="schedule-channel" href="https://www.youtube.com/@u0_um" rel="noopener noreferrer" target="_blank">▶ YouTube ↗</a></div><div aria-live="polite" class="home-schedule-cards" id="home-schedule-cards"></div><details class="schedule-manage editor"><summary>✏️ 配信予定を追加・編集する（管理用）</summary><p class="hint">YouTubeのURLを入れるとサムネイルを自動表示。LIVE判定は公開サイト側の連携設定後に反映されます。予定はブラウザ内に仮保存されます。公開用に反映するには「HTMLを保存」して index.html を上書きしてね。</p><form id="home-schedule-form"><input id="home-event-id" type="hidden"/><div class="schedule-fields"><label>配信日 <input id="home-event-date" required="" type="date"/></label><label>開始時間 <input id="home-event-time" type="time"/></label><label>タイトル / ゲーム名 <input id="home-event-title" maxlength="100" placeholder="例：VALORANT ランク配信" required="" type="text"/></label><label>YouTube配信URL <input id="home-event-url" placeholder="https://www.youtube.com/watch?v=..." type="url"/></label><label>手動サムネイル（任意） <input id="home-event-image" placeholder="images/thumbnail.png" type="text"/></label></div><p class="hint">サムネイルはYouTube URLから自動取得。手動画像を入力した場合はそちらを優先します。</p><div class="schedule-actions"><button type="submit">♡ 予定を登録・更新</button><button id="home-event-clear" type="button">入力をクリア</button><button id="home-schedule-export" type="button">💾 公開用HTMLを保存</button></div></form><div class="schedule-manage-list" id="home-schedule-manage-list"></div></details><script id="home-schedule-data" type="application/json">[]</script></section><div class="cards"><article class="card" id="contents"><h2>💗 CONTENTS</h2><small>ゲーム・歌ってみた・Shorts</small><div class="ume-contents-grid">
+<a class="ume-content-tile" href="https://www.youtube.com/playlist?list=PLXx6i1BN-blk" rel="noopener noreferrer" target="_blank"><div class="ume-content-media"><img alt="ゲーム配信" loading="lazy" src="https://i.ytimg.com/vi/GVWL3IUk0Ys/hqdefault.jpg"/></div><b>🎮 GAME</b><span>配信アーカイブの再生リストを見る ↗</span></a>
+<a class="ume-content-tile" href="https://www.youtube.com/watch?v=BjZd001ztbg" rel="noopener noreferrer" target="_blank"><div class="ume-content-media"><img alt="歌ってみた" loading="lazy" src="https://i.ytimg.com/vi/BjZd001ztbg/hqdefault.jpg"/></div><b>🎤 MUSIC</b><span>歌ってみた動画を見る ↗</span></a>
+<a class="ume-content-tile" href="https://www.youtube.com/@u0_um/shorts" id="ume-shorts-link" rel="noopener noreferrer" target="_blank"><div class="ume-content-media"><img alt="Shorts" id="ume-shorts-thumb" loading="lazy" src="https://i.ytimg.com/vi/BjZd001ztbg/hqdefault.jpg"/></div><b>🎬 SHORTS</b><span id="ume-shorts-label">Shortsを見る ↗</span></a>
+</div><p class="ume-contents-note">Shortsは公開済み動画からランダムに表示します（自動更新の設定後に有効になります）。</p></article><div class="ume-about-links-row"><article class="card home-about-card" id="about"><div class="home-about-copy"><h2>💜 ABOUT</h2><small>わたしについて</small><p><b>憂井うめです！</b><br/>癒し声なのにリアクションは全力！<br/>ゲームが大好きな配信者です。<br/>泣いて、笑って、叫んで、<br/>一緒に最高の時間を作ろう！ ♡</p><a class="pillbtn" href="about.html">もっと見る →</a></div><img alt="憂井うめのイラスト" class="home-about-art" onerror="this.style.display='none'" src="images/home_about.png"/></article><article class="card" id="links"><h2>💌 LINKS</h2><small>いろんなリンク</small><div class="socials"><a href="https://www.youtube.com/@u0_um" rel="noopener noreferrer" target="_blank">▶ YouTube ↗</a><a href="https://www.twitch.tv/umyaa_zz" rel="noopener noreferrer" target="_blank">🎮 Twitch ↗</a><a href="https://x.com/uumya_zZ" rel="noopener noreferrer" target="_blank">𝕏 X ↗</a><a href="https://www.tiktok.com/@melume56" rel="noopener noreferrer" target="_blank">♪ TikTok ↗</a><a href="https://gi-pt.com/main/wishlist/fan-view/3a245c4a-05a1-d518-4669-47ae0e70c5d7" rel="noopener noreferrer" target="_blank">🎁 Gipt ↗</a></div></article></div></div><details class="home-about-art-editor editor"><summary>🎨 HOMEのABOUT枠・イラスト位置とサイズを調整する（自分用）</summary><p class="hint">画像は images/home_about.png に入れてね。PCとスマホで別々に調整できるよ。設定はこのブラウザに保存されます。</p><div class="home-about-art-controls"><fieldset><legend>🖥️ PC版</legend><label>大きさ <output id="haPcSizeOut"></output><input id="haPcSize" max="350" min="60" step="5" type="range" value="160"/></label><label>左右 <output id="haPcXOut"></output><input id="haPcX" max="200" min="-200" step="5" type="range" value="0"/></label><label>上下 <output id="haPcYOut"></output><input id="haPcY" max="180" min="-180" step="5" type="range" value="0"/></label></fieldset><fieldset><legend>📱 スマホ版</legend><label>大きさ <output id="haMobileSizeOut"></output><input id="haMobileSize" max="260" min="50" step="5" type="range" value="115"/></label><label>左右 <output id="haMobileXOut"></output><input id="haMobileX" max="160" min="-160" step="5" type="range" value="0"/></label><label>上下 <output id="haMobileYOut"></output><input id="haMobileY" max="160" min="-160" step="5" type="range" value="0"/></label></fieldset></div><button id="haReset" type="button">初期位置に戻す</button></details><details class="timeline-image-editor"><summary>🎨 年表の画像1枚の大きさ・位置・角度を調整する（自分用）</summary><p class="hint">images フォルダに timeline_art.png を入れてね。年表の枠内に画像が1枚表示されるよ。画像がない場合は表示しません。</p><div class="tl-controls"><fieldset><legend>🖥️ PC版</legend><label>大きさ <output id="tlPcSizeOut"></output><input id="tlPcSize" max="1800" min="80" step="5" type="range" value="300"/></label><label>左右 <output id="tlPcXOut"></output><input id="tlPcX" max="900" min="-900" step="5" type="range" value="0"/></label><label>上下 <output id="tlPcYOut"></output><input id="tlPcY" max="900" min="-900" step="5" type="range" value="0"/></label><label>角度 <output id="tlPcRotateOut"></output><input id="tlPcRotate" max="180" min="-180" step="1" type="range" value="0"/></label></fieldset><fieldset><legend>📱 スマホ版</legend><label>大きさ <output id="tlMobileSizeOut"></output><input id="tlMobileSize" max="1200" min="80" step="5" type="range" value="220"/></label><label>左右 <output id="tlMobileXOut"></output><input id="tlMobileX" max="600" min="-600" step="5" type="range" value="0"/></label><label>上下 <output id="tlMobileYOut"></output><input id="tlMobileY" max="600" min="-600" step="5" type="range" value="0"/></label><label>角度 <output id="tlMobileRotateOut"></output><input id="tlMobileRotate" max="180" min="-180" step="1" type="range" value="0"/></label></fieldset></div><button id="tlReset" type="button">初期位置に戻す</button><button id="tlExport" type="button">💾 公開用HTMLを保存</button><p class="hint">調整はこのブラウザに保存されます。公開時は「公開用HTMLを保存」でダウンロードした index.html に差し替えてね。</p></details><section class="section activity-timeline" id="timeline"><span class="schedule-kicker">♡ MY HISTORY ♡</span><h2>🎀 ACTIVITY TIMELINE</h2><p>憂井うめの活動のあゆみ ♡</p><div class="timeline-content-layout"><div class="timeline-list"><div class="timeline-event"><time>2021.11.30</time><div><strong>配信活動スタート</strong><p>Twitchで配信を開始！</p></div></div><div class="timeline-event"><time>2024.09</time><div><strong>TIMCUP</strong><p>VALORANTカスタムに参加</p></div></div><div class="timeline-event"><time>2024.11 – 2025.01</time><div><strong>TGSGTA Vol.2</strong><p>GTAストリーマーサーバーに参加</p></div></div><div class="timeline-event"><time>2025.02.13</time><div><strong>VTuberとして再デビュー ♡</strong><p>憂井うめとして新たなスタート！</p></div></div><div class="timeline-event"><time>2025.03 – 2025.07</time><div><strong>Rust・VALORANTイベント</strong><p>第二回天下統一Rust、TGSRUST Vol.5、TIMCUPに参加</p></div></div><div class="timeline-event"><time>2025.12</time><div><strong>TGSGTA Vol.3</strong><p>GTAストリーマーサーバーに参加</p></div></div><div class="timeline-event"><time>2026.03</time><div><strong>WRCGTA</strong><p>GTAストリーマーサーバーに参加</p></div></div></div><div class="timeline-single-art"><img alt="活動年表のイラスト" id="timelineSingleImage" onerror="this.parentElement.classList.add('photo-missing')" onload="this.parentElement.classList.remove('photo-missing')" src="images/timeline_art.png"/></div></div></section><section class="section inquiry-section" id="contact"><span class="schedule-kicker">♡ GET IN TOUCH ♡</span><h2>💌 CONTACT</h2><p>お仕事やコラボのお問い合わせはこちらから ♡</p><form class="inquiry-form" id="inquiry-form"><label>お名前 <span class="required">必須</span><input autocomplete="name" maxlength="100" name="person" placeholder="お名前を入力" required="" type="text"/></label><label>会社名／団体名 <span class="optional">任意</span><input autocomplete="organization" maxlength="150" name="organization" placeholder="個人の方は空欄でOK" type="text"/></label><label>メールアドレス <span class="required">必須</span><input autocomplete="email" maxlength="200" name="email" placeholder="example@example.com" required="" type="email"/></label><label>お問い合わせ内容 <span class="required">必須</span><textarea maxlength="5000" name="message" placeholder="お問い合わせ内容を入力" required="" rows="7"></textarea></label><button class="inquiry-submit" type="submit">✉ お問い合わせを送信する</button><p class="hint" id="inquiry-notice" role="status">※ 送信後、こちらに完了メッセージが表示されます。</p></form></section></main><footer class="footer">♡ THANK YOU FOR VISITING ♡<br/><small>© UME UI</small></footer><script>
+const portrait=document.getElementById('ume');portrait.onload=()=>{portrait.classList.add('loaded');document.querySelector('.portrait-area').classList.add('has-image')};portrait.onerror=()=>{portrait.classList.remove('loaded');document.querySelector('.portrait-area').classList.remove('has-image')};const pickup=document.getElementById('pickup');pickup.onload=()=>document.getElementById('pickupFallback').style.display='none';pickup.onerror=()=>{pickup.style.display='none';document.getElementById('pickupFallback').style.display='block'};const ids=['size','x','y'];function apply(){const v=ids.map(id=>document.getElementById(id).value);document.documentElement.style.setProperty('--size',v[0]+'%');document.documentElement.style.setProperty('--px',v[1]+'%');document.documentElement.style.setProperty('--py',v[2]+'%');ids.forEach((id,i)=>document.getElementById(id+'Out').textContent=v[i]+'%');try{localStorage.setItem('ume-v9-portrait',JSON.stringify(v))}catch(e){}}try{const v=JSON.parse(localStorage.getItem('ume-v9-portrait'));if(Array.isArray(v)&&v.length===3)ids.forEach((id,i)=>document.getElementById(id).value=v[i])}catch(e){}ids.forEach(id=>document.getElementById(id).addEventListener('input',apply));document.getElementById('reset').onclick=()=>{[165,48,47].forEach((v,i)=>document.getElementById(ids[i]).value=v);apply()};apply();
+</script><script>(function(){const ids=['pickupScale','pickupX','pickupY'],defaults=[100,50,50],key='ume-pickup-image-v1';let v=defaults;try{const stored=JSON.parse(localStorage.getItem(key));if(Array.isArray(stored)&&stored.length===3)v=stored}catch(e){}function apply(){const n=ids.map(id=>Number(document.getElementById(id).value));document.documentElement.style.setProperty('--pickup-scale',n[0]/100);document.documentElement.style.setProperty('--pickup-x',n[1]+'%');document.documentElement.style.setProperty('--pickup-y',n[2]+'%');ids.forEach((id,i)=>document.getElementById(id+'Out').textContent=n[i]+'%');try{localStorage.setItem(key,JSON.stringify(n))}catch(e){}}ids.forEach((id,i)=>{document.getElementById(id).value=v[i];document.getElementById(id).addEventListener('input',apply)});document.getElementById('pickupReset').onclick=()=>{ids.forEach((id,i)=>document.getElementById(id).value=defaults[i]);apply()};apply()})();</script><script src="text-editor.js"></script><script>(function(){
+const KEY='ume-home-schedule-v1';
+let verifiedStatus={};
+const source=document.getElementById('home-schedule-data');
+let base=[];try{base=JSON.parse(source.textContent||'[]')}catch(e){}
+let events=base;
+try{const saved=JSON.parse(localStorage.getItem(KEY));if(Array.isArray(saved))events=saved}catch(e){}
+const $=id=>document.getElementById(id);
+function ytId(url){try{const u=new URL(url);const h=u.hostname.toLowerCase();if(h==='youtu.be'||h==='www.youtu.be')return u.pathname.split('/')[1]||null;if(['youtube.com','www.youtube.com','m.youtube.com','youtube-nocookie.com','www.youtube-nocookie.com'].includes(h)){if(u.pathname==='/watch')return u.searchParams.get('v');const m=u.pathname.match(/^\/(?:live|shorts|embed)\/([^/]+)/);return m?m[1]:null}}catch(e){}return null}
+function thumb(e){if(e.image)return e.image;const id=ytId(e.url||'');return id&&/^[a-zA-Z0-9_-]{11}$/.test(id)?'https://i.ytimg.com/vi/'+id+'/hqdefault.jpg':''}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(events))}catch(e){}}
+function node(tag,cls,txt){const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el}
+function getBadge(e){
+ const id=ytId(e.url||'');const result=id?verifiedStatus[id]:null;
+ if(result==='live')return ['● LIVE 配信中！','live'];
+ if(result==='upcoming')return ['◷ 配信予定','planned'];
+ if(result==='completed')return ['✓ 配信終了','ended'];
+ const planned=(e.date+'T'+(e.time||'00:00')+':00');
+ if(planned && new Date(planned).getTime()>Date.now())return ['◷ 配信予定','planned'];
+ return ['配信状況を確認中','unknown'];
+}
+async function loadVerified(){
+ try{const res=await fetch('./youtube-status.json?ts='+Date.now(),{cache:'no-store'});if(!res.ok)return;const obj=await res.json();if(obj&&typeof obj.statuses==='object'){verifiedStatus=obj.statuses;render()}}catch(e){}
+}
+function render(){const root=$('home-schedule-cards'),list=$('home-schedule-manage-list');root.replaceChildren();list.replaceChildren();const sorted=[...events].sort((a,b)=>(a.date+' '+(a.time||'')).localeCompare(b.date+' '+(b.time||'')));
+if(!sorted.length)root.appendChild(node('div','home-schedule-empty','♡ 配信予定は準備中！ 予定が決まったらここに表示するよ ♡'));
+for(const e of sorted){const card=node('article','home-event');const media=node(e.url?'a':'div','home-event-media');if(e.url){media.href=e.url;media.target='_blank';media.rel='noopener noreferrer'}const src=thumb(e);if(src){const img=node('img');img.src=src;img.alt=e.title+' のサムネイル';img.loading='lazy';img.onerror=()=>{img.replaceWith(node('span','home-event-fallback','🎮 STREAM ♡'))};media.appendChild(img)}else media.appendChild(node('span','home-event-fallback','🎮 STREAM ♡'));card.appendChild(media);const info=node('div','home-event-info');const [badgeText,badgeType]=getBadge(e);info.appendChild(node('span','stream-badge '+badgeType,badgeText));info.appendChild(node('span','home-event-date',e.date+(e.time?'　'+e.time:'')));info.appendChild(node('h3','',e.title));if(e.url){const a=node('a','home-event-open','▶ YouTubeで見る ↗');a.href=e.url;a.target='_blank';a.rel='noopener noreferrer';info.appendChild(a)}card.appendChild(info);root.appendChild(card);
+const row=node('div','schedule-manage-row');row.appendChild(node('span','',e.date+' '+(e.time||'')+' ｜ '+e.title));const actions=node('div');const edit=node('button','','編集');edit.type='button';edit.onclick=()=>{ $('home-event-id').value=e.id;$('home-event-date').value=e.date;$('home-event-time').value=e.time||'';$('home-event-title').value=e.title;$('home-event-url').value=e.url||'';$('home-event-image').value=e.image||'';document.querySelector('.schedule-manage').open=true;document.querySelector('.schedule-manage').scrollIntoView({behavior:'smooth',block:'start'})};const del=node('button','delete','削除');del.type='button';del.onclick=()=>{if(!confirm('この予定を削除する？'))return;events=events.filter(x=>x.id!==e.id);save();render()};actions.append(edit,del);row.appendChild(actions);list.appendChild(row)}
+}
+$('home-schedule-form').addEventListener('submit',ev=>{ev.preventDefault();const id=$('home-event-id').value||('evt-'+Date.now()+'-'+Math.random().toString(36).slice(2,7));const entry={id,date:$('home-event-date').value,time:$('home-event-time').value,title:$('home-event-title').value.trim(),url:$('home-event-url').value.trim(),image:$('home-event-image').value.trim()};if(!entry.date||!entry.title)return;const idx=events.findIndex(x=>x.id===id);if(idx>=0)events[idx]=entry;else events.push(entry);save();render();$('home-schedule-form').reset();$('home-event-id').value=''});
+$('home-event-clear').onclick=()=>{$('home-schedule-form').reset();$('home-event-id').value=''};
+window.getUmeHomeScheduleEvents=()=>events;
+$('home-schedule-export').onclick=()=>{const clone=document.documentElement.cloneNode(true);const data=clone.querySelector('#home-schedule-data');data.textContent=JSON.stringify(events).replace(/</g,'\\u003c');clone.querySelector('#text-edit-toolbar')?.remove();clone.querySelector('#text-edit-style')?.remove();clone.querySelectorAll('[data-text-editable]').forEach(n=>{n.removeAttribute('data-text-editable');n.removeAttribute('contenteditable')});clone.querySelector('body')?.classList.remove('text-editing');const html='<!doctype html>\n'+clone.outerHTML;const url=URL.createObjectURL(new Blob([html],{type:'text/html;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='index.html';a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);alert('index.html を保存したよ！元の index.html に上書きしてね。')};render();loadVerified();setInterval(loadVerified,120000);
+})();</script><script src="logo-size-controls.js"></script><script src="home-about-art-controls.js"></script><script>(function(){
+const ENDPOINT='https://formspree.io/f/mrpejjnw';
+const form=document.getElementById('inquiry-form');
+const notice=document.getElementById('inquiry-notice');
+if(!form || !notice)return;
+const button=form.querySelector('button[type="submit"]');
+let sending=false;
+form.addEventListener('submit',async function(e){
+ e.preventDefault();
+ if(sending || !form.reportValidity())return;
+ sending=true;
+ button.disabled=true;
+ button.textContent='送信中…';
+ notice.textContent='お問い合わせを送信しています…';
+ notice.style.color='';
+ try {
+   const response=await fetch(ENDPOINT,{
+     method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}
+   });
+   if(!response.ok){
+     let message='送信できませんでした。少し時間をおいて再度お試しください。';
+     try {const result=await response.json();if(Array.isArray(result.errors)&&result.errors.length)message=result.errors.map(x=>x.message).filter(Boolean).join(' / ')||message;}catch(_){}
+     throw new Error(message);
+   }
+   form.reset();
+   notice.textContent='お問い合わせを送信しました！ありがとうございます。';
+   notice.style.color='#277b57';
+ }catch(error){
+   notice.textContent=(error instanceof Error?error.message:'送信に失敗しました。')+' 通信環境を確認して、もう一度お試しください。';
+   notice.style.color='#b42c61';
+ }finally{
+   sending=false;
+   button.disabled=false;
+   button.textContent='✉ お問い合わせを送信する';
+ }
+});
+})();</script><script>(function(){
+ const pic=document.getElementById('timelineSingleImage');if(!pic)return;
+ const defaults={PcSize:300,PcX:0,PcY:0,PcRotate:0,MobileSize:220,MobileX:0,MobileY:0,MobileRotate:0};
+ const props={PcSize:'--tl-one-pc-size',PcX:'--tl-one-pc-x',PcY:'--tl-one-pc-y',MobileSize:'--tl-one-mobile-size',MobileX:'--tl-one-mobile-x',MobileY:'--tl-one-mobile-y',PcRotate:'--tl-one-pc-rotate',MobileRotate:'--tl-one-mobile-rotate'};
+ const key='ume_timeline_one_image_settings_v1';let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}')||{}}catch(e){}
+ const get=k=>{const inline=pic.style.getPropertyValue(props[k]);return Number.isFinite(saved[k])?saved[k]:inline?parseFloat(inline):defaults[k]};
+ const unit=k=>k.endsWith('Rotate')?'deg':'px';const sync=()=>{for(const k of Object.keys(defaults)){const v=get(k);pic.style.setProperty(props[k],v+unit(k));document.getElementById('tl'+k).value=v;document.getElementById('tl'+k+'Out').textContent=v+unit(k)}};
+ for(const k of Object.keys(defaults)){document.getElementById('tl'+k).addEventListener('input',e=>{saved[k]=Number(e.target.value);pic.style.setProperty(props[k],saved[k]+unit(k));localStorage.setItem(key,JSON.stringify(saved));document.getElementById('tl'+k+'Out').textContent=saved[k]+unit(k)})}
+ document.getElementById('tlReset').addEventListener('click',()=>{saved={};localStorage.removeItem(key);for(const k of Object.keys(defaults))pic.style.removeProperty(props[k]);sync()});
+ document.getElementById('tlExport').addEventListener('click',()=>{sync();const html='<!DOCTYPE html>\n'+document.documentElement.outerHTML;const blob=new Blob([html],{type:'text/html;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='index.html';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)});
+ sync();
+})();</script><script>(async function(){try{const r=await fetch('./shorts.json?cache='+Math.floor(Date.now()/3600000));if(!r.ok)return;const d=await r.json();if(!Array.isArray(d.videos)||!d.videos.length)return;const ids=d.videos.filter(v=>/^[a-zA-Z0-9_-]{11}$/.test(v));if(!ids.length)return;const id=ids[Math.floor(Math.random()*ids.length)];document.getElementById('ume-shorts-link').href='https://www.youtube.com/shorts/'+id;document.getElementById('ume-shorts-thumb').src='https://i.ytimg.com/vi/'+id+'/hqdefault.jpg';document.getElementById('ume-shorts-label').textContent='ランダムShortsを見る ↗';}catch(e){}})();</script></body></html>

@@ -1,0 +1,13 @@
+HOMEに「配信予定」「LIVE 配信中！」「配信終了」バッジを追加しました。
+
+【ローカルでの表示】
+未来の日時は「配信予定」と表示します。過去の配信は、実際の状態が検証できない限り「配信状況を確認中」と表示します。勝手にLIVEとは判定しません。
+
+【自動LIVE判定を有効にするには】
+1. GitHubのアカウントとGitHub Pagesでサイトを公開します。
+2. Google CloudでYouTube Data API v3のAPIキーを発行します。
+3. GitHubのリポジトリ Settings → Secrets and variables → Actions に YOUTUBE_API_KEY を登録します。HTMLや公開ファイルには書きません。
+4. .github/workflows/update-youtube-status.yml が15分ごとに配信URLの状態を取得し youtube-status.json を更新します。
+5. HOMEを開いた訪問者は、公開済みのJSONを読み込んでバッジを表示します。
+
+注意：GitHub Actionsの定期実行は遅延することがあり、完全リアルタイムではありません。配信URLを登録した後、編集済みindex.htmlを公開リポジトリにも反映してください。APIの利用枠・権限設定も確認してください。

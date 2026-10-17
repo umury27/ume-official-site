@@ -1,0 +1,11 @@
+憂井うめ公式HP：HOME配信予定サムネイル版
+
+1. ZIPを「すべて展開」
+2. images フォルダに ume.png と ume_about.png を入れる
+3. index.html を開く
+4. HOMEの「STREAM SCHEDULE」から配信予定を追加
+5. YouTube URLを入れるとサムネイルを自動表示（手動画像も可）
+6. 「公開用HTMLを保存」を押し、ダウンロードされた index.html で元のファイルを上書き
+
+YouTubeの過去配信は自動収集しません。登録したURLのサムネイルのみ自動表示します。
+画像はAIにアップロードせず、手元のimagesフォルダに置いてください。
