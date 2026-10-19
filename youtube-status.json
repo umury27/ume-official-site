@@ -1,12 +1,32 @@
 {
   "streams": [
     {
-      "id": "dR0A33pYrqo",
-      "title": "憂井うめ のライブ配信",
-      "url": "https://www.youtube.com/watch?v=dR0A33pYrqo",
-      "image": "https://i.ytimg.com/vi/dR0A33pYrqo/hqdefault_live.jpg",
+      "id": "G9XYLttewcA",
+      "title": "【Sort The Capybaras】こんな状態じゃカピバラのおもちゃ屋さん開店できないよ!!😢整理しながらまったり雑談しよう～✨【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=G9XYLttewcA",
+      "image": "https://i.ytimg.com/vi/G9XYLttewcA/hqdefault_live.jpg",
       "status": "upcoming",
-      "scheduled_start": null,
+      "scheduled_start": "2026-10-20T11:30:00Z",
+      "actual_start": null,
+      "actual_end": null
+    },
+    {
+      "id": "JIfTmzeuMAE",
+      "title": "【パルワールド】ついに世界樹の最深部に潜入！？いったい何が待っているのか...💦⌇#25【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=JIfTmzeuMAE",
+      "image": "https://i.ytimg.com/vi/JIfTmzeuMAE/hqdefault_live.jpg",
+      "status": "upcoming",
+      "scheduled_start": "2026-10-22T11:00:00Z",
+      "actual_start": null,
+      "actual_end": null
+    },
+    {
+      "id": "EpnpkM84dPo",
+      "title": "【Enshrouded】完全初見✨美しく秘密に満ちた世界を探索しに行くぞ～！⌇#3【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=EpnpkM84dPo",
+      "image": "https://i.ytimg.com/vi/EpnpkM84dPo/hqdefault_live.jpg",
+      "status": "upcoming",
+      "scheduled_start": "2026-10-24T11:00:00Z",
       "actual_start": null,
       "actual_end": null
     },
@@ -82,6 +102,9 @@
     }
   ],
   "statuses": {
+    "JIfTmzeuMAE": "upcoming",
+    "EpnpkM84dPo": "upcoming",
+    "G9XYLttewcA": "upcoming",
     "oUfmazUbC4Y": "upcoming",
     "_w4cPetcYLg": "completed",
     "LXr9QIhs8gs": "completed",
@@ -94,8 +117,7 @@
     "yEmvkOzBaDs": "completed",
     "nUivbg669hQ": "completed",
     "PwBagxbsWVo": "completed",
-    "bhZy_EGxBjY": "completed",
-    "dR0A33pYrqo": "upcoming"
+    "bhZy_EGxBjY": "completed"
   },
-  "updated_at": "2026-10-19T12:45:04.321251+00:00"
+  "updated_at": "2026-10-19T18:41:28.948039+00:00"
 }
