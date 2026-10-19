@@ -11,6 +11,16 @@
       "actual_end": null
     },
     {
+      "id": "oUfmazUbC4Y",
+      "title": "【#ぷるぐら秋の歌枠リレー】お昼過ぎに秋の歌はいかがですか？➰🍂🍁【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=oUfmazUbC4Y",
+      "image": "https://i.ytimg.com/vi/oUfmazUbC4Y/hqdefault_live.jpg",
+      "status": "upcoming",
+      "scheduled_start": "2026-10-25T05:30:00Z",
+      "actual_start": null,
+      "actual_end": null
+    },
+    {
       "id": "_w4cPetcYLg",
       "title": "【AION2】MMO初心者🔰ストーリー進めるためにミッションたくさんやるぞ～！スキルとか理解したい！⌇#3【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=_w4cPetcYLg",
@@ -72,6 +82,7 @@
     }
   ],
   "statuses": {
+    "oUfmazUbC4Y": "upcoming",
     "_w4cPetcYLg": "completed",
     "LXr9QIhs8gs": "completed",
     "vWMIblrLBls": "completed",
@@ -86,5 +97,5 @@
     "bhZy_EGxBjY": "completed",
     "dR0A33pYrqo": "upcoming"
   },
-  "updated_at": "2026-10-19T06:47:52.596735+00:00"
+  "updated_at": "2026-10-19T12:45:04.321251+00:00"
 }
