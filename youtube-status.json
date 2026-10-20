@@ -5,9 +5,9 @@
       "title": "【Sort The Capybaras】こんな状態じゃカピバラのおもちゃ屋さん開店できないよ!!😢整理しながらまったり雑談しよう～✨【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=G9XYLttewcA",
       "image": "https://i.ytimg.com/vi/G9XYLttewcA/hqdefault_live.jpg",
-      "status": "upcoming",
+      "status": "live",
       "scheduled_start": "2026-10-20T11:30:00Z",
-      "actual_start": null,
+      "actual_start": "2026-10-20T11:30:23Z",
       "actual_end": null
     },
     {
@@ -102,9 +102,9 @@
     }
   ],
   "statuses": {
+    "G9XYLttewcA": "live",
     "JIfTmzeuMAE": "upcoming",
     "EpnpkM84dPo": "upcoming",
-    "G9XYLttewcA": "upcoming",
     "oUfmazUbC4Y": "upcoming",
     "_w4cPetcYLg": "completed",
     "LXr9QIhs8gs": "completed",
@@ -119,5 +119,5 @@
     "PwBagxbsWVo": "completed",
     "bhZy_EGxBjY": "completed"
   },
-  "updated_at": "2026-10-20T06:42:10.317575+00:00"
+  "updated_at": "2026-10-20T12:44:34.243808+00:00"
 }
