@@ -1,16 +1,6 @@
 {
   "streams": [
     {
-      "id": "G9XYLttewcA",
-      "title": "【Sort The Capybaras】こんな状態じゃカピバラのおもちゃ屋さん開店できないよ!!😢整理しながらまったり雑談しよう～✨【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=G9XYLttewcA",
-      "image": "https://i.ytimg.com/vi/G9XYLttewcA/hqdefault_live.jpg",
-      "status": "live",
-      "scheduled_start": "2026-10-20T11:30:00Z",
-      "actual_start": "2026-10-20T11:30:23Z",
-      "actual_end": null
-    },
-    {
       "id": "JIfTmzeuMAE",
       "title": "【パルワールド】ついに世界樹の最深部に潜入！？いったい何が待っているのか...💦⌇#25【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=JIfTmzeuMAE",
@@ -39,6 +29,16 @@
       "scheduled_start": "2026-10-25T05:30:00Z",
       "actual_start": null,
       "actual_end": null
+    },
+    {
+      "id": "G9XYLttewcA",
+      "title": "【Sort The Capybaras】こんな状態じゃカピバラのおもちゃ屋さん開店できないよ!!😢整理しながらまったり雑談しよう～✨【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=G9XYLttewcA",
+      "image": "https://i.ytimg.com/vi/G9XYLttewcA/hqdefault.jpg",
+      "status": "completed",
+      "scheduled_start": "2026-10-20T11:30:00Z",
+      "actual_start": "2026-10-20T11:30:23Z",
+      "actual_end": "2026-10-20T14:58:47Z"
     },
     {
       "id": "_w4cPetcYLg",
@@ -89,20 +89,10 @@
       "scheduled_start": "2026-10-06T11:00:00Z",
       "actual_start": "2026-10-06T11:00:24Z",
       "actual_end": "2026-10-06T15:07:34Z"
-    },
-    {
-      "id": "-Rmt4IDLBfs",
-      "title": "【パルワールド】メインの拠点を作る！作業BGMにもどうぞ✨⌇#22【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=-Rmt4IDLBfs",
-      "image": "https://i.ytimg.com/vi/-Rmt4IDLBfs/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-10-03T09:30:00Z",
-      "actual_start": "2026-10-03T09:30:15Z",
-      "actual_end": "2026-10-03T16:52:16Z"
     }
   ],
   "statuses": {
-    "G9XYLttewcA": "live",
+    "G9XYLttewcA": "completed",
     "JIfTmzeuMAE": "upcoming",
     "EpnpkM84dPo": "upcoming",
     "oUfmazUbC4Y": "upcoming",
@@ -119,5 +109,5 @@
     "PwBagxbsWVo": "completed",
     "bhZy_EGxBjY": "completed"
   },
-  "updated_at": "2026-10-20T12:44:34.243808+00:00"
+  "updated_at": "2026-10-20T18:39:09.262820+00:00"
 }
