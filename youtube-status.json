@@ -5,18 +5,18 @@
       "title": "【パルワールド】ついに世界樹の最深部に潜入！？いったい何が待っているのか...💦⌇#25【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=JIfTmzeuMAE",
       "image": "https://i.ytimg.com/vi/JIfTmzeuMAE/hqdefault.jpg?v=6ad6353d",
-      "status": "upcoming",
+      "status": "live",
       "scheduled_start": "2026-10-23T11:00:00Z",
-      "actual_start": null,
+      "actual_start": "2026-10-23T11:00:18Z",
       "actual_end": null
     },
     {
       "id": "EpnpkM84dPo",
-      "title": "【Enshrouded】完全初見✨美しく秘密に満ちた世界を探索しに行くぞ～！⌇#3【憂井うめ/＃新人Vtuber】",
+      "title": "【Enshrouded】完全初見✨美しく秘密に満ちた世界を探索しに行くぞ～！⌇#1【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=EpnpkM84dPo",
       "image": "https://i.ytimg.com/vi/EpnpkM84dPo/hqdefault.jpg?v=6ad633eb",
       "status": "upcoming",
-      "scheduled_start": "2026-10-24T11:00:00Z",
+      "scheduled_start": "2026-10-24T13:15:00Z",
       "actual_start": null,
       "actual_end": null
     },
@@ -92,8 +92,8 @@
     }
   ],
   "statuses": {
+    "JIfTmzeuMAE": "live",
     "G9XYLttewcA": "completed",
-    "JIfTmzeuMAE": "upcoming",
     "EpnpkM84dPo": "upcoming",
     "oUfmazUbC4Y": "upcoming",
     "_w4cPetcYLg": "completed",
@@ -107,5 +107,5 @@
     "yEmvkOzBaDs": "completed",
     "nUivbg669hQ": "completed"
   },
-  "updated_at": "2026-10-23T06:43:01.899373+00:00"
+  "updated_at": "2026-10-23T12:41:14.224098+00:00"
 }
