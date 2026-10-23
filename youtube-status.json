@@ -1,16 +1,6 @@
 {
   "streams": [
     {
-      "id": "JIfTmzeuMAE",
-      "title": "【パルワールド】ついに世界樹の最深部に潜入！？いったい何が待っているのか...💦⌇#25【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=JIfTmzeuMAE",
-      "image": "https://i.ytimg.com/vi/JIfTmzeuMAE/hqdefault.jpg?v=6ad6353d",
-      "status": "live",
-      "scheduled_start": "2026-10-23T11:00:00Z",
-      "actual_start": "2026-10-23T11:00:18Z",
-      "actual_end": null
-    },
-    {
       "id": "EpnpkM84dPo",
       "title": "【Enshrouded】完全初見✨美しく秘密に満ちた世界を探索しに行くぞ～！⌇#1【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=EpnpkM84dPo",
@@ -29,6 +19,16 @@
       "scheduled_start": "2026-10-25T05:30:00Z",
       "actual_start": null,
       "actual_end": null
+    },
+    {
+      "id": "JIfTmzeuMAE",
+      "title": "【パルワールド】ついに世界樹の最深部に潜入！？いったい何が待っているのか...💦⌇#25【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=JIfTmzeuMAE",
+      "image": "https://i.ytimg.com/vi/JIfTmzeuMAE/hqdefault.jpg?v=6ad6353d",
+      "status": "completed",
+      "scheduled_start": "2026-10-23T11:00:00Z",
+      "actual_start": "2026-10-23T11:00:18Z",
+      "actual_end": "2026-10-23T15:53:29Z"
     },
     {
       "id": "G9XYLttewcA",
@@ -79,20 +79,10 @@
       "scheduled_start": "2026-10-11T04:00:00Z",
       "actual_start": "2026-10-11T04:00:31Z",
       "actual_end": "2026-10-11T09:14:23Z"
-    },
-    {
-      "id": "aCAVYcObQkw",
-      "title": "【パルワールド】かっこいい水上拠点を作る！世界樹探索して素材も集めるよ🌸⌇#23【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=aCAVYcObQkw",
-      "image": "https://i.ytimg.com/vi/aCAVYcObQkw/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-10-06T11:00:00Z",
-      "actual_start": "2026-10-06T11:00:24Z",
-      "actual_end": "2026-10-06T15:07:34Z"
     }
   ],
   "statuses": {
-    "JIfTmzeuMAE": "live",
+    "JIfTmzeuMAE": "completed",
     "G9XYLttewcA": "completed",
     "EpnpkM84dPo": "upcoming",
     "oUfmazUbC4Y": "upcoming",
@@ -107,5 +97,5 @@
     "yEmvkOzBaDs": "completed",
     "nUivbg669hQ": "completed"
   },
-  "updated_at": "2026-10-23T12:41:14.224098+00:00"
+  "updated_at": "2026-10-23T18:40:00.549835+00:00"
 }
