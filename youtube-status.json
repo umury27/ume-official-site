@@ -1,16 +1,6 @@
 {
   "streams": [
     {
-      "id": "EpnpkM84dPo",
-      "title": "【Enshrouded】完全初見✨新しい世界を冒険しに行くぞ～！！⌇#1【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=EpnpkM84dPo",
-      "image": "https://i.ytimg.com/vi/EpnpkM84dPo/hqdefault.jpg?v=6ad633eb",
-      "status": "upcoming",
-      "scheduled_start": "2026-10-24T13:15:00Z",
-      "actual_start": null,
-      "actual_end": null
-    },
-    {
       "id": "oUfmazUbC4Y",
       "title": "【#ぷるぐら秋の歌枠リレー】お昼過ぎに秋の歌はいかがですか？➰🍂🍁【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=oUfmazUbC4Y",
@@ -19,6 +9,16 @@
       "scheduled_start": "2026-10-25T05:30:00Z",
       "actual_start": null,
       "actual_end": null
+    },
+    {
+      "id": "EpnpkM84dPo",
+      "title": "【Enshrouded】完全初見✨新しい世界を冒険しに行くぞ～！！⌇#1【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=EpnpkM84dPo",
+      "image": "https://i.ytimg.com/vi/EpnpkM84dPo/hqdefault.jpg?v=6ad633eb",
+      "status": "completed",
+      "scheduled_start": "2026-10-24T13:15:00Z",
+      "actual_start": "2026-10-24T13:16:28Z",
+      "actual_end": "2026-10-24T18:11:38Z"
     },
     {
       "id": "JIfTmzeuMAE",
@@ -69,22 +69,12 @@
       "scheduled_start": "2026-10-11T13:30:00Z",
       "actual_start": "2026-10-11T13:20:42Z",
       "actual_end": "2026-10-11T19:44:49Z"
-    },
-    {
-      "id": "4ICN_nU2BnY",
-      "title": "【パルワールド】ついにかっこいい水上拠点を完成させる！🔥⌇#24【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=4ICN_nU2BnY",
-      "image": "https://i.ytimg.com/vi/4ICN_nU2BnY/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-10-11T04:00:00Z",
-      "actual_start": "2026-10-11T04:00:31Z",
-      "actual_end": "2026-10-11T09:14:23Z"
     }
   ],
   "statuses": {
+    "EpnpkM84dPo": "completed",
     "JIfTmzeuMAE": "completed",
     "G9XYLttewcA": "completed",
-    "EpnpkM84dPo": "upcoming",
     "oUfmazUbC4Y": "upcoming",
     "_w4cPetcYLg": "completed",
     "LXr9QIhs8gs": "completed",
@@ -97,5 +87,5 @@
     "yEmvkOzBaDs": "completed",
     "nUivbg669hQ": "completed"
   },
-  "updated_at": "2026-10-24T12:38:55.002174+00:00"
+  "updated_at": "2026-10-24T18:34:09.057363+00:00"
 }
