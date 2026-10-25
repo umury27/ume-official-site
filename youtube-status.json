@@ -1,6 +1,16 @@
 {
   "streams": [
     {
+      "id": "YHRkIe4fI3M",
+      "title": "【パルワールド】かわいいパルを生み出すんだ、、！レイド準備もするよ⌇#26【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=YHRkIe4fI3M",
+      "image": "https://i.ytimg.com/vi/YHRkIe4fI3M/hqdefault.jpg?v=6addcc02",
+      "status": "upcoming",
+      "scheduled_start": "2026-10-26T11:30:00Z",
+      "actual_start": null,
+      "actual_end": null
+    },
+    {
       "id": "oUfmazUbC4Y",
       "title": "【#ぷるぐら秋の歌枠リレー】お昼過ぎに歌はいかがですか？➰🍂🍁【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=oUfmazUbC4Y",
@@ -62,6 +72,7 @@
     }
   ],
   "statuses": {
+    "YHRkIe4fI3M": "upcoming",
     "oUfmazUbC4Y": "completed",
     "EpnpkM84dPo": "completed",
     "JIfTmzeuMAE": "completed",
@@ -77,5 +88,5 @@
     "yEmvkOzBaDs": "completed",
     "nUivbg669hQ": "completed"
   },
-  "updated_at": "2026-10-25T06:39:49.237122+00:00"
+  "updated_at": "2026-10-25T12:38:26.524291+00:00"
 }
