@@ -14,7 +14,7 @@
       "id": "oUfmazUbC4Y",
       "title": "【#ぷるぐら秋の歌枠リレー】お昼過ぎに歌はいかがですか？➰🍂🍁【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=oUfmazUbC4Y",
-      "image": "https://i.ytimg.com/vi/oUfmazUbC4Y/hqdefault.jpg?v=6ad60a3f",
+      "image": "https://i.ytimg.com/vi/oUfmazUbC4Y/hqdefault.jpg",
       "status": "completed",
       "scheduled_start": "2026-10-25T05:30:00Z",
       "actual_start": "2026-10-25T05:30:06Z",
@@ -72,8 +72,8 @@
     }
   ],
   "statuses": {
-    "YHRkIe4fI3M": "upcoming",
     "oUfmazUbC4Y": "completed",
+    "YHRkIe4fI3M": "upcoming",
     "EpnpkM84dPo": "completed",
     "JIfTmzeuMAE": "completed",
     "G9XYLttewcA": "completed",
@@ -88,5 +88,5 @@
     "yEmvkOzBaDs": "completed",
     "nUivbg669hQ": "completed"
   },
-  "updated_at": "2026-10-25T18:34:05.914429+00:00"
+  "updated_at": "2026-10-26T00:56:05.174645+00:00"
 }
