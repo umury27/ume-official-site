@@ -5,10 +5,10 @@
       "title": "【パルワールド】かわいいパルを生み出すんだ、、！レイド準備もするよ⌇#26【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=YHRkIe4fI3M",
       "image": "https://i.ytimg.com/vi/YHRkIe4fI3M/hqdefault.jpg?v=6addcc02",
-      "status": "upcoming",
+      "status": "completed",
       "scheduled_start": "2026-10-26T11:30:00Z",
-      "actual_start": null,
-      "actual_end": null
+      "actual_start": "2026-10-26T11:30:29Z",
+      "actual_end": "2026-10-26T13:42:02Z"
     },
     {
       "id": "oUfmazUbC4Y",
@@ -59,21 +59,11 @@
       "scheduled_start": "2026-10-16T13:00:00Z",
       "actual_start": "2026-10-16T13:00:16Z",
       "actual_end": "2026-10-16T16:20:14Z"
-    },
-    {
-      "id": "LXr9QIhs8gs",
-      "title": "【AION2】MMO完全初心者、ついに冒険開始！初めての世界にワクワクが止まらない！✨⌇#2【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=LXr9QIhs8gs",
-      "image": "https://i.ytimg.com/vi/LXr9QIhs8gs/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-10-13T11:00:00Z",
-      "actual_start": "2026-10-13T11:06:37Z",
-      "actual_end": "2026-10-13T15:10:31Z"
     }
   ],
   "statuses": {
+    "YHRkIe4fI3M": "completed",
     "oUfmazUbC4Y": "completed",
-    "YHRkIe4fI3M": "upcoming",
     "EpnpkM84dPo": "completed",
     "JIfTmzeuMAE": "completed",
     "G9XYLttewcA": "completed",
@@ -85,8 +75,7 @@
     "-Rmt4IDLBfs": "completed",
     "_BxaPPkq4Tw": "completed",
     "zNrguMPQldo": "completed",
-    "yEmvkOzBaDs": "completed",
-    "nUivbg669hQ": "completed"
+    "yEmvkOzBaDs": "completed"
   },
-  "updated_at": "2026-10-26T06:47:15.966107+00:00"
+  "updated_at": "2026-10-26T14:48:04.347513+00:00"
 }
