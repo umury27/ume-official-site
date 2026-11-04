@@ -1,6 +1,16 @@
 {
   "streams": [
     {
+      "id": "fyzG1KcuX68",
+      "title": "【パルワールド】推しのための推しだけの楽園を建築します！✨⌇#27【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=fyzG1KcuX68",
+      "image": "https://i.ytimg.com/vi/fyzG1KcuX68/hqdefault.jpg?v=6aeb206c",
+      "status": "upcoming",
+      "scheduled_start": "2026-11-06T11:30:00Z",
+      "actual_start": null,
+      "actual_end": null
+    },
+    {
       "id": "IdX_6Ik-gJs",
       "title": "【Feign】おバカ人狼で1番のおバカを決めたいと思います【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=IdX_6Ik-gJs",
@@ -62,6 +72,7 @@
     }
   ],
   "statuses": {
+    "fyzG1KcuX68": "upcoming",
     "IdX_6Ik-gJs": "completed",
     "YHRkIe4fI3M": "completed",
     "oUfmazUbC4Y": "completed",
@@ -74,5 +85,5 @@
     "4ICN_nU2BnY": "completed",
     "aCAVYcObQkw": "completed"
   },
-  "updated_at": "2026-11-04T07:14:15.604650+00:00"
+  "updated_at": "2026-11-04T13:04:02.228982+00:00"
 }
