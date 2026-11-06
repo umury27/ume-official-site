@@ -5,10 +5,10 @@
       "title": "【パルワールド】推しのための推しだけの楽園を建築します！✨⌇#27【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=fyzG1KcuX68",
       "image": "https://i.ytimg.com/vi/fyzG1KcuX68/hqdefault.jpg?v=6aeb206c",
-      "status": "live",
+      "status": "completed",
       "scheduled_start": "2026-11-06T11:30:00Z",
       "actual_start": "2026-11-06T11:30:29Z",
-      "actual_end": null
+      "actual_end": "2026-11-06T15:42:24Z"
     },
     {
       "id": "IdX_6Ik-gJs",
@@ -59,20 +59,10 @@
       "scheduled_start": "2026-10-23T11:00:00Z",
       "actual_start": "2026-10-23T11:00:18Z",
       "actual_end": "2026-10-23T15:53:29Z"
-    },
-    {
-      "id": "G9XYLttewcA",
-      "title": "【Sort The Capybaras】こんな状態じゃカピバラのおもちゃ屋さん開店できないよ!!😢整理しながらまったり雑談しよう～✨【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=G9XYLttewcA",
-      "image": "https://i.ytimg.com/vi/G9XYLttewcA/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-10-20T11:30:00Z",
-      "actual_start": "2026-10-20T11:30:23Z",
-      "actual_end": "2026-10-20T14:58:47Z"
     }
   ],
   "statuses": {
-    "fyzG1KcuX68": "live",
+    "fyzG1KcuX68": "completed",
     "IdX_6Ik-gJs": "completed",
     "YHRkIe4fI3M": "completed",
     "oUfmazUbC4Y": "completed",
@@ -84,5 +74,5 @@
     "vWMIblrLBls": "completed",
     "4ICN_nU2BnY": "completed"
   },
-  "updated_at": "2026-11-06T13:03:45.400737+00:00"
+  "updated_at": "2026-11-06T18:53:08.283730+00:00"
 }
