@@ -5,9 +5,9 @@
       "title": "【パルワールド】推しのための楽園づくり🌴難航中だけど進めていくよ～！⌇#28【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=r_jzKUVFsSI",
       "image": "https://i.ytimg.com/vi/r_jzKUVFsSI/hqdefault.jpg?v=6af2fabf",
-      "status": "upcoming",
+      "status": "live",
       "scheduled_start": "2026-11-11T11:30:00Z",
-      "actual_start": null,
+      "actual_start": "2026-11-11T11:30:44Z",
       "actual_end": null
     },
     {
@@ -72,7 +72,7 @@
     }
   ],
   "statuses": {
-    "r_jzKUVFsSI": "upcoming",
+    "r_jzKUVFsSI": "live",
     "fyzG1KcuX68": "completed",
     "IdX_6Ik-gJs": "completed",
     "YHRkIe4fI3M": "completed",
@@ -84,5 +84,5 @@
     "LXr9QIhs8gs": "completed",
     "vWMIblrLBls": "completed"
   },
-  "updated_at": "2026-11-11T07:14:21.654007+00:00"
+  "updated_at": "2026-11-11T13:08:31.204698+00:00"
 }
