@@ -5,10 +5,10 @@
       "title": "【パルワールド】推しのための楽園づくり🌴難航中だけど進めていくよ～！⌇#28【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=r_jzKUVFsSI",
       "image": "https://i.ytimg.com/vi/r_jzKUVFsSI/hqdefault.jpg?v=6af2fabf",
-      "status": "live",
+      "status": "completed",
       "scheduled_start": "2026-11-11T11:30:00Z",
       "actual_start": "2026-11-11T11:30:44Z",
-      "actual_end": null
+      "actual_end": "2026-11-11T15:02:08Z"
     },
     {
       "id": "fyzG1KcuX68",
@@ -59,20 +59,10 @@
       "scheduled_start": "2026-10-24T13:15:00Z",
       "actual_start": "2026-10-24T13:16:28Z",
       "actual_end": "2026-10-24T18:11:38Z"
-    },
-    {
-      "id": "JIfTmzeuMAE",
-      "title": "【パルワールド】ついに世界樹の最深部に潜入！？いったい何が待っているのか...💦⌇#25【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=JIfTmzeuMAE",
-      "image": "https://i.ytimg.com/vi/JIfTmzeuMAE/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-10-23T11:00:00Z",
-      "actual_start": "2026-10-23T11:00:18Z",
-      "actual_end": "2026-10-23T15:53:29Z"
     }
   ],
   "statuses": {
-    "r_jzKUVFsSI": "live",
+    "r_jzKUVFsSI": "completed",
     "fyzG1KcuX68": "completed",
     "IdX_6Ik-gJs": "completed",
     "YHRkIe4fI3M": "completed",
@@ -81,8 +71,7 @@
     "JIfTmzeuMAE": "completed",
     "G9XYLttewcA": "completed",
     "_w4cPetcYLg": "completed",
-    "LXr9QIhs8gs": "completed",
-    "vWMIblrLBls": "completed"
+    "LXr9QIhs8gs": "completed"
   },
-  "updated_at": "2026-11-11T13:08:31.204698+00:00"
+  "updated_at": "2026-11-11T18:58:03.770250+00:00"
 }
