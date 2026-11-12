@@ -1,6 +1,26 @@
 {
   "streams": [
     {
+      "id": "nvQSkqY2b6g",
+      "title": "【パルワールド】楽園づくり！やっと形が見えてきた、、、？👻⌇#28【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=nvQSkqY2b6g",
+      "image": "https://i.ytimg.com/vi/nvQSkqY2b6g/hqdefault.jpg?v=6af5b8b4",
+      "status": "upcoming",
+      "scheduled_start": "2026-11-13T11:30:00Z",
+      "actual_start": null,
+      "actual_end": null
+    },
+    {
+      "id": "WzB3wNPXX3U",
+      "title": "【歌枠】久しぶりの歌です！1時間ほど🎤【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=WzB3wNPXX3U",
+      "image": "https://i.ytimg.com/vi/WzB3wNPXX3U/hqdefault.jpg?v=6af59188",
+      "status": "completed",
+      "scheduled_start": "2026-11-12T11:00:00Z",
+      "actual_start": "2026-11-12T11:01:00Z",
+      "actual_end": "2026-11-12T12:44:04Z"
+    },
+    {
       "id": "r_jzKUVFsSI",
       "title": "【パルワールド】推しのための楽園づくり🌴難航中だけど進めていくよ～！⌇#28【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=r_jzKUVFsSI",
@@ -49,19 +69,11 @@
       "scheduled_start": "2026-10-25T05:30:00Z",
       "actual_start": "2026-10-25T05:30:06Z",
       "actual_end": "2026-10-25T06:00:32Z"
-    },
-    {
-      "id": "EpnpkM84dPo",
-      "title": "【Enshrouded】完全初見✨新しい世界を冒険しに行くぞ～！！⌇#1【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=EpnpkM84dPo",
-      "image": "https://i.ytimg.com/vi/EpnpkM84dPo/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-10-24T13:15:00Z",
-      "actual_start": "2026-10-24T13:16:28Z",
-      "actual_end": "2026-10-24T18:11:38Z"
     }
   ],
   "statuses": {
+    "nvQSkqY2b6g": "upcoming",
+    "WzB3wNPXX3U": "completed",
     "r_jzKUVFsSI": "completed",
     "fyzG1KcuX68": "completed",
     "IdX_6Ik-gJs": "completed",
@@ -73,5 +85,5 @@
     "_w4cPetcYLg": "completed",
     "LXr9QIhs8gs": "completed"
   },
-  "updated_at": "2026-11-12T07:18:31.379553+00:00"
+  "updated_at": "2026-11-12T13:12:47.732572+00:00"
 }
