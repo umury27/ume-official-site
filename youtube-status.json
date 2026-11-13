@@ -5,10 +5,10 @@
       "title": "【パルワールド】楽園づくり！やっと形が見えてきた、、、？👻⌇#28【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=nvQSkqY2b6g",
       "image": "https://i.ytimg.com/vi/nvQSkqY2b6g/hqdefault.jpg?v=6af5b8b4",
-      "status": "live",
+      "status": "completed",
       "scheduled_start": "2026-11-13T11:30:00Z",
       "actual_start": "2026-11-13T11:30:47Z",
-      "actual_end": null
+      "actual_end": "2026-11-13T15:27:42Z"
     },
     {
       "id": "WzB3wNPXX3U",
@@ -59,20 +59,10 @@
       "scheduled_start": "2026-10-26T11:30:00Z",
       "actual_start": "2026-10-26T11:30:29Z",
       "actual_end": "2026-10-26T13:42:02Z"
-    },
-    {
-      "id": "oUfmazUbC4Y",
-      "title": "【#ぷるぐら秋の歌枠リレー】お昼過ぎに歌はいかがですか？➰🍂🍁【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=oUfmazUbC4Y",
-      "image": "https://i.ytimg.com/vi/oUfmazUbC4Y/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-10-25T05:30:00Z",
-      "actual_start": "2026-10-25T05:30:06Z",
-      "actual_end": "2026-10-25T06:00:32Z"
     }
   ],
   "statuses": {
-    "nvQSkqY2b6g": "live",
+    "nvQSkqY2b6g": "completed",
     "WzB3wNPXX3U": "completed",
     "r_jzKUVFsSI": "completed",
     "fyzG1KcuX68": "completed",
@@ -84,5 +74,5 @@
     "G9XYLttewcA": "completed",
     "_w4cPetcYLg": "completed"
   },
-  "updated_at": "2026-11-13T13:08:18.072528+00:00"
+  "updated_at": "2026-11-13T18:54:36.994422+00:00"
 }
