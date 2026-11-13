@@ -5,9 +5,9 @@
       "title": "【パルワールド】楽園づくり！やっと形が見えてきた、、、？👻⌇#28【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=nvQSkqY2b6g",
       "image": "https://i.ytimg.com/vi/nvQSkqY2b6g/hqdefault.jpg?v=6af5b8b4",
-      "status": "upcoming",
+      "status": "live",
       "scheduled_start": "2026-11-13T11:30:00Z",
-      "actual_start": null,
+      "actual_start": "2026-11-13T11:30:47Z",
       "actual_end": null
     },
     {
@@ -72,8 +72,8 @@
     }
   ],
   "statuses": {
+    "nvQSkqY2b6g": "live",
     "WzB3wNPXX3U": "completed",
-    "nvQSkqY2b6g": "upcoming",
     "r_jzKUVFsSI": "completed",
     "fyzG1KcuX68": "completed",
     "IdX_6Ik-gJs": "completed",
@@ -82,8 +82,7 @@
     "EpnpkM84dPo": "completed",
     "JIfTmzeuMAE": "completed",
     "G9XYLttewcA": "completed",
-    "_w4cPetcYLg": "completed",
-    "LXr9QIhs8gs": "completed"
+    "_w4cPetcYLg": "completed"
   },
-  "updated_at": "2026-11-13T07:15:53.138846+00:00"
+  "updated_at": "2026-11-13T13:08:18.072528+00:00"
 }
