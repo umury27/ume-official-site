@@ -1,6 +1,16 @@
 {
   "streams": [
     {
+      "id": "ZDfINHXqv38",
+      "title": "【Enshrouded】完全初見🔰この世界で初めての建築！探索も進めていきたいよ！⌇#2【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=ZDfINHXqv38",
+      "image": "https://i.ytimg.com/vi/ZDfINHXqv38/hqdefault.jpg?v=6af820b0",
+      "status": "live",
+      "scheduled_start": "2026-11-14T11:30:00Z",
+      "actual_start": "2026-11-14T11:30:20Z",
+      "actual_end": null
+    },
+    {
       "id": "nvQSkqY2b6g",
       "title": "【パルワールド】楽園づくり！やっと形が見えてきた、、、？👻⌇#28【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=nvQSkqY2b6g",
@@ -62,6 +72,7 @@
     }
   ],
   "statuses": {
+    "ZDfINHXqv38": "live",
     "nvQSkqY2b6g": "completed",
     "WzB3wNPXX3U": "completed",
     "r_jzKUVFsSI": "completed",
@@ -74,5 +85,5 @@
     "G9XYLttewcA": "completed",
     "_w4cPetcYLg": "completed"
   },
-  "updated_at": "2026-11-14T06:59:19.801127+00:00"
+  "updated_at": "2026-11-14T12:51:24.088716+00:00"
 }
