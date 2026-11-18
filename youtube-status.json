@@ -1,16 +1,6 @@
 {
   "streams": [
     {
-      "id": "DR7EbPvDkvc",
-      "title": "【Enshrouded】完全初見🔰冒険とストーリー攻略！きれいな景色見に行こう！⌇#3【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=DR7EbPvDkvc",
-      "image": "https://i.ytimg.com/vi/DR7EbPvDkvc/hqdefault.jpg?v=6afc34d6",
-      "status": "upcoming",
-      "scheduled_start": "2026-11-18T11:30:00Z",
-      "actual_start": null,
-      "actual_end": null
-    },
-    {
       "id": "QVCUxF1rze8",
       "title": "【パルワールド】新拠点の内装と農園作りを進めるよ！⌇#30【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=QVCUxF1rze8",
@@ -19,6 +9,16 @@
       "scheduled_start": "2026-11-20T11:30:00Z",
       "actual_start": null,
       "actual_end": null
+    },
+    {
+      "id": "DR7EbPvDkvc",
+      "title": "【Enshrouded】完全初見🔰冒険とストーリー攻略！きれいな景色見に行こう！⌇#3【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=DR7EbPvDkvc",
+      "image": "https://i.ytimg.com/vi/DR7EbPvDkvc/hqdefault.jpg?v=6afc34d6",
+      "status": "completed",
+      "scheduled_start": "2026-11-18T11:30:00Z",
+      "actual_start": "2026-11-18T11:30:02Z",
+      "actual_end": "2026-11-18T14:24:47Z"
     },
     {
       "id": "4geNP5NtyEk",
@@ -69,21 +69,11 @@
       "scheduled_start": "2026-11-11T11:30:00Z",
       "actual_start": "2026-11-11T11:30:44Z",
       "actual_end": "2026-11-11T15:02:08Z"
-    },
-    {
-      "id": "fyzG1KcuX68",
-      "title": "【パルワールド】推しのための推しだけの楽園を建築します！✨⌇#27【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=fyzG1KcuX68",
-      "image": "https://i.ytimg.com/vi/fyzG1KcuX68/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-11-06T11:30:00Z",
-      "actual_start": "2026-11-06T11:30:29Z",
-      "actual_end": "2026-11-06T15:42:24Z"
     }
   ],
   "statuses": {
+    "DR7EbPvDkvc": "completed",
     "QVCUxF1rze8": "upcoming",
-    "DR7EbPvDkvc": "upcoming",
     "4geNP5NtyEk": "completed",
     "ZDfINHXqv38": "completed",
     "nvQSkqY2b6g": "completed",
@@ -97,5 +87,5 @@
     "JIfTmzeuMAE": "completed",
     "G9XYLttewcA": "completed"
   },
-  "updated_at": "2026-11-18T00:54:39.525860+00:00"
+  "updated_at": "2026-11-18T15:32:07.022669+00:00"
 }
