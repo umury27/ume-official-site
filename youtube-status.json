@@ -1,14 +1,24 @@
 {
   "streams": [
     {
+      "id": "1efjkFY3ZnM",
+      "title": "【パルワールド】新拠点の内装と農園作りを進めるよ！⌇#30　2枠目【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=1efjkFY3ZnM",
+      "image": "https://i.ytimg.com/vi/1efjkFY3ZnM/hqdefault.jpg?v=6b02faad",
+      "status": "completed",
+      "scheduled_start": "2026-11-22T14:30:00Z",
+      "actual_start": "2026-11-22T14:27:09Z",
+      "actual_end": "2026-11-22T16:09:51Z"
+    },
+    {
       "id": "QVCUxF1rze8",
       "title": "【パルワールド】新拠点の内装と農園作りを進めるよ！⌇#30【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=QVCUxF1rze8",
-      "image": "https://i.ytimg.com/vi/QVCUxF1rze8/hqdefault.jpg?v=6afc355c",
-      "status": "upcoming",
+      "image": "https://i.ytimg.com/vi/QVCUxF1rze8/hqdefault.jpg",
+      "status": "completed",
       "scheduled_start": "2026-11-22T11:30:00Z",
-      "actual_start": null,
-      "actual_end": null
+      "actual_start": "2026-11-22T11:30:20Z",
+      "actual_end": "2026-11-22T14:21:58Z"
     },
     {
       "id": "DR7EbPvDkvc",
@@ -49,31 +59,12 @@
       "scheduled_start": "2026-11-13T11:30:00Z",
       "actual_start": "2026-11-13T11:30:47Z",
       "actual_end": "2026-11-13T15:27:42Z"
-    },
-    {
-      "id": "WzB3wNPXX3U",
-      "title": "【歌枠】久しぶりの歌です！1時間ほど🎤【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=WzB3wNPXX3U",
-      "image": "https://i.ytimg.com/vi/WzB3wNPXX3U/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-11-12T11:00:00Z",
-      "actual_start": "2026-11-12T11:01:00Z",
-      "actual_end": "2026-11-12T12:44:04Z"
-    },
-    {
-      "id": "r_jzKUVFsSI",
-      "title": "【パルワールド】推しのための楽園づくり🌴難航中だけど進めていくよ～！⌇#28【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=r_jzKUVFsSI",
-      "image": "https://i.ytimg.com/vi/r_jzKUVFsSI/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-11-11T11:30:00Z",
-      "actual_start": "2026-11-11T11:30:44Z",
-      "actual_end": "2026-11-11T15:02:08Z"
     }
   ],
   "statuses": {
+    "QVCUxF1rze8": "completed",
+    "1efjkFY3ZnM": "completed",
     "DR7EbPvDkvc": "completed",
-    "QVCUxF1rze8": "upcoming",
     "4geNP5NtyEk": "completed",
     "ZDfINHXqv38": "completed",
     "nvQSkqY2b6g": "completed",
@@ -86,5 +77,5 @@
     "EpnpkM84dPo": "completed",
     "JIfTmzeuMAE": "completed"
   },
-  "updated_at": "2026-11-22T06:35:21.780249+00:00"
+  "updated_at": "2026-11-22T19:29:23.639932+00:00"
 }
