@@ -1,10 +1,20 @@
 {
   "streams": [
     {
+      "id": "-RL3SJyjab4",
+      "title": "【P5R/ペルソナ5ザ・ロイヤル】完全初見🔰で神ゲーㇺをプレイしていく！! ※ネタバレ注意⌇#1【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=-RL3SJyjab4",
+      "image": "https://i.ytimg.com/vi/-RL3SJyjab4/hqdefault.jpg?v=6b03d715",
+      "status": "upcoming",
+      "scheduled_start": "2026-11-27T11:00:00Z",
+      "actual_start": null,
+      "actual_end": null
+    },
+    {
       "id": "1efjkFY3ZnM",
       "title": "【パルワールド】新拠点の内装と農園作りを進めるよ！⌇#30　2枠目【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=1efjkFY3ZnM",
-      "image": "https://i.ytimg.com/vi/1efjkFY3ZnM/hqdefault.jpg?v=6b02faad",
+      "image": "https://i.ytimg.com/vi/1efjkFY3ZnM/hqdefault.jpg",
       "status": "completed",
       "scheduled_start": "2026-11-22T14:30:00Z",
       "actual_start": "2026-11-22T14:27:09Z",
@@ -62,8 +72,9 @@
     }
   ],
   "statuses": {
-    "QVCUxF1rze8": "completed",
+    "-RL3SJyjab4": "upcoming",
     "1efjkFY3ZnM": "completed",
+    "QVCUxF1rze8": "completed",
     "DR7EbPvDkvc": "completed",
     "4geNP5NtyEk": "completed",
     "ZDfINHXqv38": "completed",
@@ -77,5 +88,5 @@
     "EpnpkM84dPo": "completed",
     "JIfTmzeuMAE": "completed"
   },
-  "updated_at": "2026-11-22T19:29:23.639932+00:00"
+  "updated_at": "2026-11-23T07:24:54.262520+00:00"
 }
