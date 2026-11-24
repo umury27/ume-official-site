@@ -1,6 +1,16 @@
 {
   "streams": [
     {
+      "id": "G4Qrc7T9HfY",
+      "title": "【パルワールド】推しパルをでっかくする！配合する準備していくよ✨🥚⌇#31【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=G4Qrc7T9HfY",
+      "image": "https://i.ytimg.com/vi/G4Qrc7T9HfY/hqdefault.jpg?v=6b057ce5",
+      "status": "upcoming",
+      "scheduled_start": "2026-11-25T11:30:00Z",
+      "actual_start": null,
+      "actual_end": null
+    },
+    {
       "id": "-RL3SJyjab4",
       "title": "【P5R/ペルソナ5ザ・ロイヤル】完全初見🔰で神ゲーㇺをプレイしていく！! ※ネタバレ注意⌇#1【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=-RL3SJyjab4",
@@ -72,6 +82,7 @@
     }
   ],
   "statuses": {
+    "G4Qrc7T9HfY": "upcoming",
     "-RL3SJyjab4": "upcoming",
     "1efjkFY3ZnM": "completed",
     "QVCUxF1rze8": "completed",
@@ -84,8 +95,7 @@
     "fyzG1KcuX68": "completed",
     "IdX_6Ik-gJs": "completed",
     "YHRkIe4fI3M": "completed",
-    "oUfmazUbC4Y": "completed",
-    "EpnpkM84dPo": "completed"
+    "oUfmazUbC4Y": "completed"
   },
-  "updated_at": "2026-11-24T09:44:23.310433+00:00"
+  "updated_at": "2026-11-24T22:19:33.490155+00:00"
 }
