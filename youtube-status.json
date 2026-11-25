@@ -1,16 +1,6 @@
 {
   "streams": [
     {
-      "id": "G4Qrc7T9HfY",
-      "title": "【パルワールド】推しパルをでっかくする！配合する準備していくよ✨🥚⌇#31【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=G4Qrc7T9HfY",
-      "image": "https://i.ytimg.com/vi/G4Qrc7T9HfY/hqdefault.jpg?v=6b057ce5",
-      "status": "upcoming",
-      "scheduled_start": "2026-11-25T11:30:00Z",
-      "actual_start": null,
-      "actual_end": null
-    },
-    {
       "id": "-RL3SJyjab4",
       "title": "【P5R/ペルソナ5ザ・ロイヤル】完全初見🔰で神ゲーㇺをプレイしていく！! ※ネタバレ注意⌇#1【憂井うめ/＃新人Vtuber】",
       "url": "https://www.youtube.com/watch?v=-RL3SJyjab4",
@@ -19,6 +9,16 @@
       "scheduled_start": "2026-11-27T11:00:00Z",
       "actual_start": null,
       "actual_end": null
+    },
+    {
+      "id": "G4Qrc7T9HfY",
+      "title": "【パルワールド】推しパルをでっかくする！配合する準備していくよ✨🥚⌇#31【憂井うめ/＃新人Vtuber】",
+      "url": "https://www.youtube.com/watch?v=G4Qrc7T9HfY",
+      "image": "https://i.ytimg.com/vi/G4Qrc7T9HfY/hqdefault.jpg",
+      "status": "completed",
+      "scheduled_start": "2026-11-25T11:30:00Z",
+      "actual_start": "2026-11-25T11:30:01Z",
+      "actual_end": "2026-11-25T14:15:23Z"
     },
     {
       "id": "1efjkFY3ZnM",
@@ -69,20 +69,10 @@
       "scheduled_start": "2026-11-14T11:30:00Z",
       "actual_start": "2026-11-14T11:30:20Z",
       "actual_end": "2026-11-14T15:10:40Z"
-    },
-    {
-      "id": "nvQSkqY2b6g",
-      "title": "【パルワールド】楽園づくり！やっと形が見えてきた、、、？👻⌇#29【憂井うめ/＃新人Vtuber】",
-      "url": "https://www.youtube.com/watch?v=nvQSkqY2b6g",
-      "image": "https://i.ytimg.com/vi/nvQSkqY2b6g/hqdefault.jpg",
-      "status": "completed",
-      "scheduled_start": "2026-11-13T11:30:00Z",
-      "actual_start": "2026-11-13T11:30:47Z",
-      "actual_end": "2026-11-13T15:27:42Z"
     }
   ],
   "statuses": {
-    "G4Qrc7T9HfY": "upcoming",
+    "G4Qrc7T9HfY": "completed",
     "-RL3SJyjab4": "upcoming",
     "1efjkFY3ZnM": "completed",
     "QVCUxF1rze8": "completed",
@@ -96,5 +86,5 @@
     "IdX_6Ik-gJs": "completed",
     "YHRkIe4fI3M": "completed"
   },
-  "updated_at": "2026-11-25T08:19:55.328861+00:00"
+  "updated_at": "2026-11-25T21:36:13.065959+00:00"
 }
